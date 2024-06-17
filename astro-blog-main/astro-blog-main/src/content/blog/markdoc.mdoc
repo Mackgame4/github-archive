@@ -1,0 +1,89 @@
+---
+title: Markdoc integration
+date: "2023-12-20"
+image: https://user-images.githubusercontent.com/62121649/167893184-a2b69260-ca9e-4a77-a5bc-63b8135ae5db.png
+author: CECRI
+authorImage: /images/logotipo.jpg
+category: evento
+tags:
+- evento
+- alerta
+- noticia
+description: Markdoc extends the markdown syntax you love to offer you authoring superpowers... 💪
+---
+[Markdoc](https://markdoc.dev/docs/overview) extends the markdown syntax you know and love to offer you authoring superpowers... 💪.
+
+Tags are the heart of Markdoc system. You can use native Markdoc tags, like tables(example below), conditionals, and partials...
+
+## Table in Markdoc
+{% table %}
+* Foo
+* Bar
+* Baz
+---
+*
+    ```
+    puts "Some code here."
+    ```
+*
+
+* Text in a table
+---
+*
+    A "loose" list with
+
+    multiple line items
+* Test 2
+* Test 3
+---
+* Test 1
+* A cell that spans two columns {% colspan=2 %}
+{% /table %}
+
+or create custom components.
+
+### Badge
+{% badge type="note" text="title goes here..." %}{% /badge %}  
+
+### Callout
+#### Info
+{% callout type="note" title="title goes here..." %}
+    lorem ipsum doler sit amet lorem  
+{% /callout %}  
+
+#### Error 
+{% callout type="error" title="title goes here..." %}
+    lorem ipsum doler sit amet
+{% /callout %}
+
+#### Warning 
+{% callout type="warning" title="title goes here..." %}
+    lorem ipsum doler sit amet
+{% /callout %}
+
+#### Check 
+{% callout type="check" title="title goes here..." %}
+    lorem ipsum doler sit amet
+{% /callout %}
+
+### Link
+
+{% link href="/blog" title="take care" %}
+    Go to blog
+{% /link %}
+
+### Tweet Embed
+{% tweet url="https://twitter.com/SpaceX/status/1738449687345352849" %}
+{% /tweet %}
+
+{% yt url="https://www.youtube.com/embed/wly-YFGZbvA?si=8I5XTDDqRhEUJwjV" title="SpaceX | Starship | 360 Video of Liftoff" %}
+{% /yt %}
+
+### Tabs
+
+{% tabs heading="some" tabs=[{title: "tab1", body: "tab1"}, {title: "tab2", body: "tab2"}] %}
+{% /tabs %}
+
+## Functions
+
+¡Hola {% getCountryEmoji("spain") %}!

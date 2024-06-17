@@ -1,0 +1,64 @@
+:root {
+    // Storefront UI Colors
+    --_c-green-primary: #69504c !important;
+    --_c-green-primary-lighten: #a79595 !important;
+    --_c-green-primary-darken: #734548 !important;
+    --_c-green-secondary: #a79595 !important;
+    --_c-green-secondary-lighten: #a79595 !important;
+    --_c-green-secondary-darken: #734548 !important;
+    // Custom Colors
+    --appprimary: #69504c;
+    --appprimary-variant: #a79595;
+    --appsecondary: #734548;
+    --appsecondary-variant: #a29293;
+    --apptertiary: #f5f5f5;
+}
+$vt-color-success: #69504c;
+$vt-text-color-success: white;
+$vt-color-info: #a79595;
+$vt-text-color-info: white;
+$vt-color-warning: black;
+$vt-text-color-warning: white;
+@import "vue-toastification/src/scss/_variables";
+@import "vue-toastification/src/scss/_toastContainer";
+@import "vue-toastification/src/scss/_toast";
+@import "vue-toastification/src/scss/_closeButton";
+@import "vue-toastification/src/scss/_progressBar";
+@import "vue-toastification/src/scss/_icon";
+@import "vue-toastification/src/scss/animations/_fade";
+.text-appprimary {
+    color: #a79595;
+}
+.text-appsecondary {
+    color: #734548;
+}
+.text-red {
+    color: #ff3538;
+}
+.text-grey {
+    color: #404145;
+}
+.text-grey:light {
+    color: #c7c7cd;
+}
+.text-yellow {
+    color: #ecaf2d;
+}
+.text-green {
+    color: #5ad864;
+}
+.text--small {
+    font-size: 12px;
+}
+.text--medium {
+    font-size: 14px;
+}
+.text--large {
+    font-size: 16px;
+}
+.text--x-large {
+    font-size: 18px;
+}
+.text--xx-large {
+    font-size: 20px;
+}

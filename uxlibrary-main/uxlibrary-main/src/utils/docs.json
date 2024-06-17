@@ -1,0 +1,1334 @@
+{
+  "timestamp": "2023-01-30T21:09:11",
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "2.22.2",
+    "typescriptVersion": "4.9.4"
+  },
+  "components": [
+    {
+      "filePath": "./src/components/ux-badge/ux-badge.tsx",
+      "encapsulation": "shadow",
+      "tag": "ux-badge",
+      "readme": "# ux-badge\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "appendIcon",
+          "type": "string",
+          "mutable": false,
+          "attr": "append-icon",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "color",
+          "type": "string",
+          "mutable": false,
+          "attr": "color",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "prependIcon",
+          "type": "string",
+          "mutable": false,
+          "attr": "prepend-icon",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "rounded",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "rounded",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "string",
+          "mutable": false,
+          "attr": "size",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'md'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "mutable": false,
+          "attr": "text",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "mutable": false,
+          "attr": "type",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [
+        "ux-icon"
+      ],
+      "dependencyGraph": {
+        "ux-badge": [
+          "ux-icon"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/ux-button/ux-button.tsx",
+      "encapsulation": "none",
+      "tag": "ux-button",
+      "readme": "# ux-button\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "appendIcon",
+          "type": "string",
+          "mutable": false,
+          "attr": "append-icon",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "block",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "block",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "color",
+          "type": "string",
+          "mutable": false,
+          "attr": "color",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "disabled",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "elevation",
+          "type": "number",
+          "mutable": false,
+          "attr": "elevation",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "0",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "loading",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "loading",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "prependIcon",
+          "type": "string",
+          "mutable": false,
+          "attr": "prepend-icon",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "ring",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "ring",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "rounded",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "rounded",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "shadow",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "shadow",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "true",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "string",
+          "mutable": false,
+          "attr": "size",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'md'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "mutable": false,
+          "attr": "text",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "mutable": false,
+          "attr": "type",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'secondary'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [
+        "ux-playground",
+        "ux-provider",
+        "ux-video"
+      ],
+      "dependencies": [
+        "ux-icon"
+      ],
+      "dependencyGraph": {
+        "ux-button": [
+          "ux-icon"
+        ],
+        "ux-playground": [
+          "ux-button"
+        ],
+        "ux-provider": [
+          "ux-button"
+        ],
+        "ux-video": [
+          "ux-button"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/ux-card/ux-card.tsx",
+      "encapsulation": "shadow",
+      "tag": "ux-card",
+      "readme": "# ux-card\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "./src/components/ux-icon/ux-icon.tsx",
+      "encapsulation": "none",
+      "tag": "ux-icon",
+      "readme": "# ux-icon\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "icon",
+          "type": "string",
+          "mutable": false,
+          "attr": "icon",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'account-box'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "size",
+          "type": "string",
+          "mutable": false,
+          "attr": "size",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'md'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [
+        "ux-badge",
+        "ux-button",
+        "ux-select",
+        "ux-textinput",
+        "ux-video"
+      ],
+      "dependencies": [],
+      "dependencyGraph": {
+        "ux-badge": [
+          "ux-icon"
+        ],
+        "ux-button": [
+          "ux-icon"
+        ],
+        "ux-select": [
+          "ux-icon"
+        ],
+        "ux-textinput": [
+          "ux-icon"
+        ],
+        "ux-video": [
+          "ux-icon"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/ux-otp/ux-otp.tsx",
+      "encapsulation": "shadow",
+      "tag": "ux-otp",
+      "readme": "# ux-otp\n\n\n",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "cellLength",
+          "type": "number",
+          "mutable": false,
+          "attr": "cell-length",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "1",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "length",
+          "type": "number",
+          "mutable": false,
+          "attr": "length",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "4",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "separator",
+          "type": "string",
+          "mutable": false,
+          "attr": "separator",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "uppercaseCells",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "uppercase-cells",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "true",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "useSeparators",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "use-separators",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "true",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "value",
+          "type": "string[]",
+          "mutable": true,
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string[]"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [
+        {
+          "event": "componentFilled",
+          "detail": "any",
+          "bubbles": true,
+          "cancelable": true,
+          "composed": true,
+          "docs": "",
+          "docsTags": []
+        }
+      ],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [
+        "ux-textinput"
+      ],
+      "dependencyGraph": {
+        "ux-otp": [
+          "ux-textinput"
+        ],
+        "ux-textinput": [
+          "ux-icon"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/ux-playground/ux-playground.tsx",
+      "encapsulation": "shadow",
+      "tag": "ux-playground",
+      "readme": "# ux-playground\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [
+        "ux-provider",
+        "ux-button",
+        "ux-select",
+        "ux-textinput"
+      ],
+      "dependencyGraph": {
+        "ux-playground": [
+          "ux-provider",
+          "ux-button",
+          "ux-select",
+          "ux-textinput"
+        ],
+        "ux-provider": [
+          "ux-button"
+        ],
+        "ux-button": [
+          "ux-icon"
+        ],
+        "ux-select": [
+          "ux-icon"
+        ],
+        "ux-textinput": [
+          "ux-icon"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/ux-provider/ux-provider.tsx",
+      "encapsulation": "none",
+      "tag": "ux-provider",
+      "readme": "# ux-provider\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "customTheme",
+          "type": "any",
+          "mutable": false,
+          "attr": "custom-theme",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "{\r\n    name: 'default',\r\n    colors: {\r\n    }\r\n  }",
+          "values": [
+            {
+              "type": "any"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "darkTheme",
+          "type": "boolean",
+          "mutable": true,
+          "attr": "dark-theme",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "debugMode",
+          "type": "boolean",
+          "mutable": true,
+          "attr": "debug-mode",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [
+        "ux-playground"
+      ],
+      "dependencies": [
+        "ux-button"
+      ],
+      "dependencyGraph": {
+        "ux-provider": [
+          "ux-button"
+        ],
+        "ux-button": [
+          "ux-icon"
+        ],
+        "ux-playground": [
+          "ux-provider"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/ux-select/ux-select.tsx",
+      "encapsulation": "shadow",
+      "tag": "ux-select",
+      "readme": "# ux-select\r\n\r\n\r\n\r",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "appendIconOff",
+          "type": "string",
+          "mutable": false,
+          "attr": "append-icon-off",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'chevron-down'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "appendIconOn",
+          "type": "string",
+          "mutable": false,
+          "attr": "append-icon-on",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'chevron-up'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "defaultSelected",
+          "type": "number",
+          "mutable": true,
+          "attr": "default-selected",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "0",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "prependIconOff",
+          "type": "string",
+          "mutable": false,
+          "attr": "prepend-icon-off",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "prependIconOn",
+          "type": "string",
+          "mutable": false,
+          "attr": "prepend-icon-on",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "rotateAppendIcon",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "rotate-append-icon",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "true",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "rotatePrependIcon",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "rotate-prepend-icon",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "showSelectedOption",
+          "type": "boolean",
+          "mutable": true,
+          "attr": "show-selected-option",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [
+        {
+          "event": "componentChange",
+          "detail": "any",
+          "bubbles": true,
+          "cancelable": true,
+          "composed": true,
+          "docs": "",
+          "docsTags": []
+        }
+      ],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [
+        "ux-playground"
+      ],
+      "dependencies": [
+        "ux-icon"
+      ],
+      "dependencyGraph": {
+        "ux-select": [
+          "ux-icon"
+        ],
+        "ux-playground": [
+          "ux-select"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/ux-slider/ux-slider.tsx",
+      "encapsulation": "shadow",
+      "tag": "ux-slider",
+      "readme": "# ux-slider\n\n\n",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "max",
+          "type": "number",
+          "mutable": false,
+          "attr": "max",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "100",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "min",
+          "type": "number",
+          "mutable": false,
+          "attr": "min",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "0",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "value",
+          "type": "number",
+          "mutable": false,
+          "attr": "value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "0",
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [
+        {
+          "event": "componentChange",
+          "detail": "any",
+          "bubbles": true,
+          "cancelable": true,
+          "composed": true,
+          "docs": "",
+          "docsTags": []
+        },
+        {
+          "event": "componentInput",
+          "detail": "any",
+          "bubbles": true,
+          "cancelable": true,
+          "composed": true,
+          "docs": "",
+          "docsTags": []
+        }
+      ],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    },
+    {
+      "filePath": "./src/components/ux-textinput/ux-textinput.tsx",
+      "encapsulation": "shadow",
+      "tag": "ux-textinput",
+      "readme": "# ux-textinput\n\n\n",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "appendIcon",
+          "type": "string",
+          "mutable": false,
+          "attr": "append-icon",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "maxlength",
+          "type": "number",
+          "mutable": false,
+          "attr": "maxlength",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "placeholder",
+          "type": "string",
+          "mutable": false,
+          "attr": "placeholder",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "prependIcon",
+          "type": "string",
+          "mutable": false,
+          "attr": "prepend-icon",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "rounded",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "rounded",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "mutable": false,
+          "attr": "value",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "''",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [
+        {
+          "event": "componentChange",
+          "detail": "any",
+          "bubbles": true,
+          "cancelable": true,
+          "composed": true,
+          "docs": "",
+          "docsTags": []
+        },
+        {
+          "event": "componentInput",
+          "detail": "any",
+          "bubbles": true,
+          "cancelable": true,
+          "composed": true,
+          "docs": "",
+          "docsTags": []
+        }
+      ],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [
+        "ux-otp",
+        "ux-playground"
+      ],
+      "dependencies": [
+        "ux-icon"
+      ],
+      "dependencyGraph": {
+        "ux-textinput": [
+          "ux-icon"
+        ],
+        "ux-otp": [
+          "ux-textinput"
+        ],
+        "ux-playground": [
+          "ux-textinput"
+        ]
+      }
+    },
+    {
+      "filePath": "./src/components/ux-video/ux-video.tsx",
+      "encapsulation": "shadow",
+      "tag": "ux-video",
+      "readme": "# ux-video\n\n\n",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "autoplay",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "autoplay",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "controls",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "controls",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "true",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "fullscreen",
+          "type": "boolean",
+          "mutable": true,
+          "attr": "fullscreen",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "loop",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "loop",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "muted",
+          "type": "boolean",
+          "mutable": false,
+          "attr": "muted",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "this.autoplay || false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "src",
+          "type": "string",
+          "mutable": false,
+          "attr": "src",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'https://www.youtube.com/watch?v=Tx9zMFodNtA'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "theater",
+          "type": "boolean",
+          "mutable": true,
+          "attr": "theater",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "false",
+          "values": [
+            {
+              "type": "boolean"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [
+        "ux-button",
+        "ux-icon"
+      ],
+      "dependencyGraph": {
+        "ux-video": [
+          "ux-button",
+          "ux-icon"
+        ],
+        "ux-button": [
+          "ux-icon"
+        ]
+      }
+    }
+  ]
+}

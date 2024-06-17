@@ -1,0 +1,49 @@
+---
+import DefaultPageLayout from '../layouts/default.astro'
+
+const title = 'Documentos'
+const description = 'Página com os documentos da associação'
+
+interface Document {
+    name: string
+    extension: string
+}
+
+// get all documents from the filesystem
+/*const documentsPath = '/documents/'
+const documents = import.meta.glob('../../public/documents/*.*')*/
+const documentsPath = '/documents/_documents/'
+const documents = import.meta.glob('../../public/documents/_documents/*.*')
+
+// define a type for the documents object
+const documentsRecord: Record<string, Document> = {}
+
+// define the metadata for the document as its name and extension
+Object.keys(documents).forEach((document) => {
+    // split the document path to get the name and extension
+    const documentPath = document.split('/')
+    const documentName = documentPath[documentPath.length - 1].split('.')
+    const documentExtension = documentName[documentName.length - 1]
+    const documentNameWithoutExtension = documentName.slice(0, -1).join('.')
+    // if the document is a mdoc, md or mdx file, skip it
+    if (documentExtension === 'mdoc' || documentExtension === 'md' || documentExtension === 'mdx') return;
+    // add the document to the documents object
+    documentsRecord[document] = {
+        name: documentNameWithoutExtension,
+        extension: documentExtension,
+    }
+})
+---
+
+<DefaultPageLayout content={{ title: title, description: description }}>
+    <ul>
+        {Object.keys(documentsRecord).map((document) => (
+            <li class="text-2xl font-semibold mb-4 text-theme-primary underline">
+                <a
+                    href={`${documentsPath + documentsRecord[document].name}.${documentsRecord[document].extension}`}
+                    download
+                >{documentsRecord[document].name}.{documentsRecord[document].extension}</a>
+            </li>
+        ))}
+    </ul>
+</DefaultPageLayout>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title></title>
+        <style>
+            body, html {
+                width: 100vw;
+                height: 100vh;
+                overflow: hidden;
+                padding: 0;
+                margin: 0;
+            }
+
+            #the_iframe {
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <iframe id="the_iframe" src="http://localhost:3000" frameborder="0"></iframe>
+    </body>
+    <script> 
+        const FrameSRC = 'http://localhost:3000';
+
+        var iframe = document.getElementById('the_iframe');
+        iframe.setAttribute('src', FrameSRC);
+
+        const sendToFrame = (event, data) => {
+            if (event && typeof(event) === 'string') {
+                iframe.contentWindow.postMessage({
+                    event,
+                    data,
+                }, '*');
+            }
+        }
+
+        window.addEventListener('message', e => {
+            const item = e.data || e.detail;
+            const { event, data } = item;
+            if (event) {
+                if (event === 'refresh') {
+                    iframe.setAttribute('src', data.src ? `https://${data.src}` : FrameSRC);
+                } else {
+                    sendToFrame(event, data);
+                }
+            }
+        }, false);
+    </script>
+</html>

@@ -1,0 +1,7 @@
+---
+const { content } = Astro.props
+
+import TeamFormatter from './TeamFormatter.svelte'
+---
+<!-- @ts-ignore -->
+<TeamFormatter client:load team={content} />

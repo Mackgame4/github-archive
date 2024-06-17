@@ -1,0 +1,9 @@
+.first-div {
+    max-height: 108px;
+    min-height: 108px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}

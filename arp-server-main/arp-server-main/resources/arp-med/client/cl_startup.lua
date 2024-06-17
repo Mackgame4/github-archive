@@ -1,0 +1,3 @@
+function OnCharacterLoadFull()
+    StartThreads()
+end

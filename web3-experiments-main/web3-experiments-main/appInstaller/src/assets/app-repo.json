@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "name": "Google Chrome",
+        "mainRepo": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B84F91229-63D4-29AA-E48E-B76BA4C754C2%7D%26lang%3Dpt-PT%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26brand%3DYTUH%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe",
+        "backupRepo": "",
+        "icon": "https://www.google.com/chrome/static/images/chrome-logo.svg",
+        "description": "A fast, secure, and free web browser built for the modern web.",
+        "tags": [
+            "browser",
+            "google"
+        ],
+        "images": [
+            "https://www.google.com/chrome/static/images/intl/pt_BR/home-experiment/hero-img_desktop.webp"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Firefox",
+        "mainRepo": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=pt-BR",
+        "backupRepo": "",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1200px-Firefox_logo%2C_2019.svg.png",
+        "description": "O Firefox é mais do que um navegador. Saiba mais sobre os produtos que a Fundação Mozilla desenvolve para tornar a Internet um lugar melhor para todos.",
+        "tags": [
+            "browser",
+            "mozilla"
+        ],
+        "images": [
+            "https://www.mozilla.org/media/img/firefox/template/page-image-master.1b6efe3d5631.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Opera",
+        "mainRepo": "https://download3.operacdn.com/pub/opera/desktop/76.0.4017.177/win/Opera_76.0.4017.177_Setup_x64.exe",
+        "backupRepo": "",
+        "icon": "https://www.opera.com/favicon.ico",
+        "description": "Opera is a fast, secure, easy-to-use browser with a built-in ad blocker.",
+        "tags": [
+            "browser",
+            "opera"
+        ],
+        "images": [
+            "https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/og/og-img--gx.d816d5f39b45.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Microsoft Edge",
+        "mainRepo": "https://go.microsoft.com/fwlink/?linkid=2108834",
+        "backupRepo": "",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Microsoft_Edge_logo_%282019%29.png",
+        "description": "Microsoft Edge is the best browser for shopping. Let us show you how.",
+        "tags": [
+            "browser",
+            "microsoft"
+        ],
+        "images": [
+            "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/e2258d06158940118ce733c03dbf26cf.jpg"
+        ]
+    },
+    {
+        "name": "Discord",
+        "mainRepo": "https://discord.com/api/download?platform=win",
+        "backupRepo": "",
+        "icon": "https://www.svgrepo.com/show/353655/discord-icon.svg",
+        "description": "Discord is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.",
+        "tags": [
+            "chat",
+            "discord"
+        ],
+        "images": [
+            "https://dl.flathub.org/repo/screenshots/com.discordapp.Discord-stable/1504x846/com.discordapp.Discord-882599fca31a23ad38bd47db302b2a00.png"
+        ]
+    }
+]

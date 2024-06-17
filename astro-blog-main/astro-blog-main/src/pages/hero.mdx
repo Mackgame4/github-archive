@@ -1,0 +1,3 @@
+O **CECRI**, há muitos anos, foi criado na Universidade por causa do espírito não conformista de jovens que queriam buscar um ensino além do óbvio, queriam instigar discussões e pôr em pauta questões marginalizadas no ensino das *Relações Internacionais*, e, assim, mostrar o papel que os estudantes deveriam ter no desenvolvimento desta área de estudo em Portugal. Foi esta ambição que desde então revolucionou nosso curso na *Universidade do Minho*.
+### Segue-nos nas nossas redes sociais:
+**Instagram:** [@cecri.uminho](https://www.instagram.com/cecri.uminho)  // **Facebook:** [@cecri-uminho](https://www.facebook.com/cecri.uminho/?locale=pt_PT) // **LinkedIn:** [cecri-uminho](https://pt.linkedin.com/company/cecri-uminho)

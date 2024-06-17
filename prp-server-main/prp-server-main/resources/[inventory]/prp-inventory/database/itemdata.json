@@ -1,0 +1,2459 @@
+[
+  {
+    "closeonuse": 0,
+    "description": "This is a pew pew",
+    "expiry_time": 1209600,
+    "id": 1,
+    "max": 1,
+    "name": "WEAPON_PISTOL",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "Must be used as an ingredient or something",
+    "expiry_time": null,
+    "id": 2,
+    "max": 5,
+    "name": "acetone",
+    "weight": 5
+  },
+  {
+    "closeonuse": 1,
+    "description": "Fixing cars at great ease",
+    "expiry_time": null,
+    "id": 3,
+    "max": 3,
+    "name": "advanced_fixkit",
+    "weight": 5
+  },
+  {
+    "closeonuse": 1,
+    "description": "Break into that shit quick",
+    "expiry_time": null,
+    "id": 4,
+    "max": 15,
+    "name": "advanced_lockpick",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "Now you're just missing the right!",
+    "expiry_time": null,
+    "id": 5,
+    "max": 3,
+    "name": "ar_left",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Now you're just missing the left!",
+    "expiry_time": null,
+    "id": 6,
+    "max": 3,
+    "name": "ar_right",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "This should heal a small scrape",
+    "expiry_time": null,
+    "id": 7,
+    "max": 25,
+    "name": "bandage",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "Do not look into it",
+    "expiry_time": null,
+    "id": 8,
+    "max": 25,
+    "name": "barrel",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Look what you caught!",
+    "expiry_time": null,
+    "id": 9,
+    "max": 20,
+    "name": "bass",
+    "weight": 4
+  },
+  {
+    "closeonuse": 0,
+    "description": "A nice source of energy!",
+    "expiry_time": null,
+    "id": 10,
+    "max": 10,
+    "name": "battery",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "A nice tad of ale for the occasion",
+    "expiry_time": null,
+    "id": 11,
+    "max": 25,
+    "name": "beer",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "This better not be used for spying...",
+    "expiry_time": null,
+    "id": 12,
+    "max": 5,
+    "name": "binoculars",
+    "weight": 10
+  },
+  {
+    "closeonuse": 0,
+    "description": "Swipe it!",
+    "expiry_time": null,
+    "id": 13,
+    "max": 10,
+    "name": "bluevaultcard",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Hair Accessory",
+    "expiry_time": null,
+    "id": 14,
+    "max": 10,
+    "name": "bobbypin",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Smack it on a gun!",
+    "expiry_time": null,
+    "id": 15,
+    "max": 25,
+    "name": "body_attachment",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Pack this shit fool",
+    "expiry_time": null,
+    "id": 16,
+    "max": 5,
+    "name": "bong",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "This outta get the party going",
+    "expiry_time": null,
+    "id": 17,
+    "max": 5,
+    "name": "boombox",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "Congrats, you're not shit!",
+    "expiry_time": null,
+    "id": 18,
+    "max": 10,
+    "name": "boxing_belt",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Does this fit your wrist size?",
+    "expiry_time": null,
+    "id": 19,
+    "max": 25,
+    "name": "bracelet",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "Fresh food, good to eat!",
+    "expiry_time": 4800000,
+    "id": 20,
+    "max": 25,
+    "name": "bread",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "With ketchup, and pickles, and cheese, no mustard, extremely no mustard",
+    "expiry_time": null,
+    "id": 21,
+    "max": 25,
+    "name": "burger",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "Be careful, this could level a city block",
+    "expiry_time": null,
+    "id": 22,
+    "max": 10,
+    "name": "c4",
+    "weight": 25
+  },
+  {
+    "closeonuse": 0,
+    "description": "Watch out for the counters",
+    "expiry_time": null,
+    "id": 23,
+    "max": 10,
+    "name": "cards",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "A high amount of voltage",
+    "expiry_time": null,
+    "id": 24,
+    "max": 10,
+    "name": "car_battery",
+    "weight": 0
+  },
+  {
+    "closeonuse": 1,
+    "description": "To give it that squeaky clean feel",
+    "expiry_time": null,
+    "id": 25,
+    "max": 10,
+    "name": "car_wash",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "This is for the bullets right?",
+    "expiry_time": null,
+    "id": 26,
+    "max": 25,
+    "name": "casing",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "This was gonna clean the ocean!",
+    "expiry_time": null,
+    "id": 27,
+    "max": 20,
+    "name": "catfish",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "Pop this bad boy open!",
+    "expiry_time": null,
+    "id": 28,
+    "max": 25,
+    "name": "champagne",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "Make sure to get the dip!",
+    "expiry_time": null,
+    "id": 29,
+    "max": 20,
+    "name": "chips",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 30,
+    "max": 25,
+    "name": "chocolate",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Not too much in a row alright?",
+    "expiry_time": null,
+    "id": 31,
+    "max": 25,
+    "name": "cigarette",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Good in use of burning your clutch",
+    "expiry_time": null,
+    "id": 32,
+    "max": 5,
+    "name": "clutch",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Just the boost you neede!",
+    "expiry_time": null,
+    "id": 33,
+    "max": 25,
+    "name": "coffee",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Heads or Tails?",
+    "expiry_time": null,
+    "id": 34,
+    "max": 10,
+    "name": "coin",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Hello Tony Montana!",
+    "expiry_time": 1209600,
+    "id": 35,
+    "max": 5,
+    "name": "coke",
+    "weight": 15
+  },
+  {
+    "closeonuse": 0,
+    "description": "A bag of that white colombian",
+    "expiry_time": null,
+    "id": 36,
+    "max": 10,
+    "name": "coke_ounce",
+    "weight": 2
+  },
+  {
+    "closeonuse": 0,
+    "description": "Speed Boost",
+    "expiry_time": null,
+    "id": 37,
+    "max": 20,
+    "name": "coke_pooch",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "Good for protection",
+    "expiry_time": null,
+    "id": 38,
+    "max": 10,
+    "name": "condom",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "A metal that can be used to make wire",
+    "expiry_time": null,
+    "id": 39,
+    "max": 25,
+    "name": "copper",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "Fresh of a wild coyote",
+    "expiry_time": null,
+    "id": 40,
+    "max": 25,
+    "name": "coyoteskin",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "Need to tie something up?",
+    "expiry_time": null,
+    "id": 41,
+    "max": 5,
+    "name": "cuffs",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "Fresh off a Deer",
+    "expiry_time": null,
+    "id": 42,
+    "max": 25,
+    "name": "deermeat",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "Oooooh shiny!",
+    "expiry_time": null,
+    "id": 43,
+    "max": 40,
+    "name": "diamond",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 44,
+    "max": 50,
+    "name": "dia_box",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "May the odds be in your favor",
+    "expiry_time": null,
+    "id": 45,
+    "max": 2,
+    "name": "dice",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Yeah.... Don't sit on this",
+    "expiry_time": null,
+    "id": 46,
+    "max": 10,
+    "name": "dildo",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "You killed a Dolphin? What a monster",
+    "expiry_time": null,
+    "id": 47,
+    "max": 20,
+    "name": "dolphin",
+    "weight": 10
+  },
+  {
+    "closeonuse": 0,
+    "description": "Heavy Duty",
+    "expiry_time": null,
+    "id": 48,
+    "max": 5,
+    "name": "drill",
+    "weight": 7
+  },
+  {
+    "closeonuse": 0,
+    "description": "This belongs in a Drill",
+    "expiry_time": null,
+    "id": 49,
+    "max": 25,
+    "name": "drill_bit",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "Studded too",
+    "expiry_time": null,
+    "id": 50,
+    "max": 25,
+    "name": "earring",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 51,
+    "max": 25,
+    "name": "eight_goldchain",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "The finest quality bait in town",
+    "expiry_time": null,
+    "id": 52,
+    "max": 50,
+    "name": "fishbait",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Don't wanna get caught easily",
+    "expiry_time": null,
+    "id": 53,
+    "max": 25,
+    "name": "flash_compensator",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 54,
+    "max": 25,
+    "name": "gauze",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 55,
+    "max": 25,
+    "name": "gintonic",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 56,
+    "max": 25,
+    "name": "glass",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 57,
+    "max": 25,
+    "name": "gold",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 58,
+    "max": 50,
+    "name": "gold_bar",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 59,
+    "max": 25,
+    "name": "gold_chain",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 60,
+    "max": 25,
+    "name": "gold_watch",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 61,
+    "max": 10,
+    "name": "grip",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Employee card for Gruppe Sechs",
+    "expiry_time": null,
+    "id": 62,
+    "max": 10,
+    "name": "gruppe_black_card",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 63,
+    "max": 25,
+    "name": "handguard_mount",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Good for cutting down trees",
+    "expiry_time": null,
+    "id": 64,
+    "max": 10,
+    "name": "hatchet_lj",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "The Magical Remedy",
+    "expiry_time": null,
+    "id": 65,
+    "max": 25,
+    "name": "hemptea",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "Straight off a Whale!",
+    "expiry_time": null,
+    "id": 66,
+    "max": 20,
+    "name": "hump",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 67,
+    "max": 20,
+    "name": "hydrocodone",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 68,
+    "max": 25,
+    "name": "icetea",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 69,
+    "max": 5,
+    "name": "id_card",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 70,
+    "max": 25,
+    "name": "iron",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 71,
+    "max": 25,
+    "name": "laptop_h",
+    "weight": 7
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 72,
+    "max": 25,
+    "name": "large_grip",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 73,
+    "max": 25,
+    "name": "large_stock",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 74,
+    "max": 25,
+    "name": "lean",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 75,
+    "max": 25,
+    "name": "leather",
+    "weight": 2
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 76,
+    "max": 10,
+    "name": "lithium",
+    "weight": 1
+  },
+  {
+    "closeonuse": 1,
+    "description": "",
+    "expiry_time": null,
+    "id": 77,
+    "max": 5,
+    "name": "lockpick",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 78,
+    "max": 25,
+    "name": "magazine",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 79,
+    "max": 10,
+    "name": "magazine_book",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 80,
+    "max": 25,
+    "name": "medkit",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 81,
+    "max": 20,
+    "name": "meth",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 82,
+    "max": 5,
+    "name": "methlab",
+    "weight": 10
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 83,
+    "max": 30,
+    "name": "meth_pooch",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 84,
+    "max": 20,
+    "name": "morphine",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 85,
+    "max": 25,
+    "name": "mtllionmeat",
+    "weight": 4
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 86,
+    "max": 5,
+    "name": "opium",
+    "weight": 15
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 87,
+    "max": 10,
+    "name": "opium_ounce",
+    "weight": 2
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 88,
+    "max": 50,
+    "name": "opium_pooch",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 89,
+    "max": 20,
+    "name": "orca",
+    "weight": 10
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 90,
+    "max": 25,
+    "name": "ore",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 91,
+    "max": 20,
+    "name": "oxy",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 92,
+    "max": 25,
+    "name": "pearl_necklace",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 93,
+    "max": 20,
+    "name": "pet_food",
+    "weight": 0
+  },
+  {
+    "closeonuse": 1,
+    "description": "",
+    "expiry_time": null,
+    "id": 94,
+    "max": 5,
+    "name": "phone",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 604800,
+    "id": 95,
+    "max": 1,
+    "name": "pistol_ammo",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 96,
+    "max": 3,
+    "name": "pistol_left",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 97,
+    "max": 3,
+    "name": "pistol_right",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 98,
+    "max": -1,
+    "name": "pizza",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 99,
+    "max": 10,
+    "name": "pro_wood",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 100,
+    "max": 25,
+    "name": "rabbitmeat",
+    "weight": 2
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 101,
+    "max": 5,
+    "name": "radio",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 102,
+    "max": 25,
+    "name": "reciever_assembly",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 103,
+    "max": 25,
+    "name": "reciever_cover",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 104,
+    "max": 25,
+    "name": "recyclable",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 105,
+    "max": 10,
+    "name": "redvaultcard",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 604800,
+    "id": 106,
+    "max": 1,
+    "name": "rifle_ammo",
+    "weight": 7
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 107,
+    "max": 4,
+    "name": "rims",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 108,
+    "max": 25,
+    "name": "ring",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 109,
+    "max": 20,
+    "name": "rtrout",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 110,
+    "max": 25,
+    "name": "salsa",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 111,
+    "max": 25,
+    "name": "sandwich",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 112,
+    "max": 25,
+    "name": "scratchoff",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 113,
+    "max": 10,
+    "name": "scratchoff_used",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 114,
+    "max": 5,
+    "name": "screen",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 115,
+    "max": 10,
+    "name": "screwdriver",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 116,
+    "max": 10,
+    "name": "scuba_tank",
+    "weight": 15
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 117,
+    "max": 20,
+    "name": "shark",
+    "weight": 10
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 604800,
+    "id": 118,
+    "max": 1,
+    "name": "shotgun_ammo",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 119,
+    "max": 25,
+    "name": "shrouded_barrel",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 120,
+    "max": 12,
+    "name": "silencer",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 121,
+    "max": 3,
+    "name": "small_armor",
+    "weight": 10
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 122,
+    "max": 25,
+    "name": "small_grip",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 123,
+    "max": 25,
+    "name": "small_stock",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 124,
+    "max": 3,
+    "name": "smg_left",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 125,
+    "max": 3,
+    "name": "smg_right",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 126,
+    "max": 25,
+    "name": "steel",
+    "weight": 2
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 127,
+    "max": 4,
+    "name": "steering_wheel",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 128,
+    "max": 20,
+    "name": "stingray",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 604800,
+    "id": 129,
+    "max": 1,
+    "name": "sub_ammo",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 130,
+    "max": 20,
+    "name": "tacos",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 131,
+    "max": 25,
+    "name": "ten_goldchain",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 132,
+    "max": 15,
+    "name": "tequila",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 133,
+    "max": 5,
+    "name": "thermal_charge",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 134,
+    "max": 5,
+    "name": "thermite",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 135,
+    "max": 25,
+    "name": "trigger_assembly",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 136,
+    "max": 20,
+    "name": "trout",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 137,
+    "max": 10,
+    "name": "usbhack",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 138,
+    "max": 15,
+    "name": "vodka",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 139,
+    "max": 15,
+    "name": "water",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 140,
+    "max": 1,
+    "name": "WEAPON_ADVANCEDRIFLE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 141,
+    "max": 1,
+    "name": "WEAPON_APPISTOL",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 142,
+    "max": 1,
+    "name": "WEAPON_ASSAULTRIFLE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 143,
+    "max": 1,
+    "name": "WEAPON_ASSAULTSHOTGUN",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 144,
+    "max": 1,
+    "name": "WEAPON_ASSAULTSMG",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 145,
+    "max": 1,
+    "name": "WEAPON_AUTOSHOTGUN",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 146,
+    "max": 1,
+    "name": "WEAPON_BALL",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 147,
+    "max": 1,
+    "name": "WEAPON_BAT",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 148,
+    "max": 1,
+    "name": "WEAPON_BATTLEAXE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 149,
+    "max": 1,
+    "name": "WEAPON_BOTTLE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 150,
+    "max": 1,
+    "name": "WEAPON_BULLPUPRIFLE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 151,
+    "max": 1,
+    "name": "WEAPON_BULLPUPSHOTGUN",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 152,
+    "max": 1,
+    "name": "WEAPON_BZGAS",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 153,
+    "max": 1,
+    "name": "WEAPON_CARBINERIFLE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 154,
+    "max": 1,
+    "name": "WEAPON_COMBATPDW",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 155,
+    "max": 1,
+    "name": "WEAPON_COMBATPISTOL",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 156,
+    "max": 1,
+    "name": "WEAPON_COMPACTLAUNCHER",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 157,
+    "max": 1,
+    "name": "WEAPON_COMPACTRIFLE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 158,
+    "max": 1,
+    "name": "WEAPON_CROWBAR",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 159,
+    "max": 1,
+    "name": "WEAPON_DAGGER",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 160,
+    "max": 1,
+    "name": "WEAPON_DBSHOTGUN",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 161,
+    "max": 1,
+    "name": "WEAPON_DIGISCANNER",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 162,
+    "max": 1,
+    "name": "WEAPON_DOUBLEACTION",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 163,
+    "max": 1,
+    "name": "WEAPON_FIREEXTINGUISHER",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 164,
+    "max": 1,
+    "name": "WEAPON_FIREWORK",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 165,
+    "max": 1,
+    "name": "WEAPON_FLARE",
+    "weight": 2
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 166,
+    "max": 1,
+    "name": "WEAPON_FLAREGUN",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 167,
+    "max": 1,
+    "name": "WEAPON_FLASHLIGHT",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 168,
+    "max": 1,
+    "name": "WEAPON_HARNAHENAG",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 169,
+    "max": 1,
+    "name": "WEAPON_GOLFCLUB",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 170,
+    "max": 1,
+    "name": "WEAPON_GRENADE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 171,
+    "max": 1,
+    "name": "WEAPON_GRENADELAUNCHER",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 172,
+    "max": 1,
+    "name": "WEAPON_GUSENBERG",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 173,
+    "max": 1,
+    "name": "WEAPON_HAMMER",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 174,
+    "max": 1,
+    "name": "WEAPON_HANDCUFFS",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 175,
+    "max": 1,
+    "name": "WEAPON_HATCHET",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 176,
+    "max": 1,
+    "name": "WEAPON_HEAVYPISTOL",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 177,
+    "max": 1,
+    "name": "WEAPON_HEAVYSHOTGUN",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 178,
+    "max": 1,
+    "name": "WEAPON_HEAVYSNIPER",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 179,
+    "max": 1,
+    "name": "WEAPON_HOMINGLAUNCHER",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 180,
+    "max": 1,
+    "name": "WEAPON_KNIFE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 181,
+    "max": 1,
+    "name": "WEAPON_KNUCKLE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 182,
+    "max": 1,
+    "name": "WEAPON_MACHETE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 183,
+    "max": 1,
+    "name": "WEAPON_MACHINEPISTOL",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 184,
+    "max": 1,
+    "name": "WEAPON_MARKSMANRIFLE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 185,
+    "max": 1,
+    "name": "WEAPON_MG",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 186,
+    "max": 1,
+    "name": "WEAPON_MICROSMG",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 187,
+    "max": 1,
+    "name": "WEAPON_MINIGUN",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 188,
+    "max": 1,
+    "name": "WEAPON_MINISMG",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 189,
+    "max": 1,
+    "name": "WEAPON_MOLOTOV",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 190,
+    "max": 1,
+    "name": "WEAPON_MUSKET",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 191,
+    "max": 1,
+    "name": "WEAPON_NIGHTSTICK",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 192,
+    "max": 1,
+    "name": "WEAPON_PETROLCAN",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 193,
+    "max": 1,
+    "name": "WEAPON_PIPEBOMB",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 194,
+    "max": 1,
+    "name": "WEAPON_PISTOL",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 195,
+    "max": 1,
+    "name": "WEAPON_PISTOL50",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 196,
+    "max": 1,
+    "name": "WEAPON_POOLCUE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 197,
+    "max": 1,
+    "name": "WEAPON_PROXMINE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 198,
+    "max": 1,
+    "name": "WEAPON_PUMPSHOTGUN",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 199,
+    "max": 1,
+    "name": "WEAPON_RAILGUN",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 200,
+    "max": 1,
+    "name": "WEAPON_REVOLVER",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 201,
+    "max": 1,
+    "name": "WEAPON_RPG",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 202,
+    "max": 1,
+    "name": "WEAPON_SAWNOFFSHOTGUN",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 203,
+    "max": 1,
+    "name": "WEAPON_SMG",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 204,
+    "max": 1,
+    "name": "WEAPON_SMOKEGRENADE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 205,
+    "max": 1,
+    "name": "WEAPON_SNIPERRIFLE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 206,
+    "max": 1,
+    "name": "WEAPON_SNOWBALL",
+    "weight": 2
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 207,
+    "max": 1,
+    "name": "WEAPON_SNSPISTOL",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 208,
+    "max": 1,
+    "name": "WEAPON_SPECIALCARBINE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 209,
+    "max": 1,
+    "name": "WEAPON_STICKYBOMB",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 210,
+    "max": 1,
+    "name": "WEAPON_STINGER",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 211,
+    "max": 1,
+    "name": "WEAPON_STUNGUN",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 212,
+    "max": 1,
+    "name": "WEAPON_SWITCHBLADE",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 213,
+    "max": 1,
+    "name": "WEAPON_VINTAGEPISTOL",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 214,
+    "max": 1,
+    "name": "WEAPON_WRENCH",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 215,
+    "max": 20,
+    "name": "weed",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 216,
+    "max": 20,
+    "name": "weed_medical",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 217,
+    "max": 20,
+    "name": "weed_pooch",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 218,
+    "max": 25,
+    "name": "whisky",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 219,
+    "max": 25,
+    "name": "wifi_card",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 220,
+    "max": 25,
+    "name": "wire",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 221,
+    "max": 50,
+    "name": "wood",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 222,
+    "max": 25,
+    "name": "jager",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 223,
+    "max": 20,
+    "name": "mixtape",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 224,
+    "max": 25,
+    "name": "bloody_marry",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 225,
+    "max": 25,
+    "name": "breakfast_sandwich",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 226,
+    "max": 15,
+    "name": "burrito",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 227,
+    "max": 15,
+    "name": "cola",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 228,
+    "max": 15,
+    "name": "dusche",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Sunny Delight",
+    "expiry_time": null,
+    "id": 229,
+    "max": 15,
+    "name": "eggs_and_bacon",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 230,
+    "max": 15,
+    "name": "tacos_fish",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 231,
+    "max": 25,
+    "name": "burger_fowl",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 232,
+    "max": 15,
+    "name": "frappuccino",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 233,
+    "max": 15,
+    "name": "french_toast",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 234,
+    "max": 15,
+    "name": "fries",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 235,
+    "max": 15,
+    "name": "horchata",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 236,
+    "max": 15,
+    "name": "hotdog",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 237,
+    "max": 15,
+    "name": "latte",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 238,
+    "max": 15,
+    "name": "martini",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 239,
+    "max": 15,
+    "name": "burger_vegan",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 240,
+    "max": 15,
+    "name": "milkshake",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 241,
+    "max": 15,
+    "name": "muffin",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 242,
+    "max": 15,
+    "name": "nachos",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 243,
+    "max": 15,
+    "name": "sandwich_panini",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 244,
+    "max": 15,
+    "name": "pina_colada",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 245,
+    "max": 15,
+    "name": "wine_red",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 246,
+    "max": 15,
+    "name": "wine_white",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 247,
+    "max": 15,
+    "name": "rum",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 248,
+    "max": 15,
+    "name": "sake",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 249,
+    "max": 15,
+    "name": "sprunk",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 250,
+    "max": 15,
+    "name": "slushy",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 251,
+    "max": 10,
+    "name": "weaponlicenseone",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 252,
+    "max": 50,
+    "name": "milk",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 253,
+    "max": 50,
+    "name": "alive_chicken",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 254,
+    "max": 50,
+    "name": "slaughtered_chicken",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 255,
+    "max": 50,
+    "name": "packaged_chicken",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 256,
+    "max": 50,
+    "name": "alive_pig",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 257,
+    "max": 50,
+    "name": "slaughtered_pig",
+    "weight": 3
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 258,
+    "max": 50,
+    "name": "packaged_pig",
+    "weight": 3
+  },
+  {
+    "closeonuse": 1,
+    "description": "Thinking about writing something?",
+    "expiry_time": null,
+    "id": 259,
+    "max": 10,
+    "name": "notepad",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Make sure to recycle this",
+    "expiry_time": null,
+    "id": 260,
+    "max": 25,
+    "name": "bottle",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "May the odds, forever be in your favor! Make sure your inventory is not full when opening!",
+    "expiry_time": null,
+    "id": 261,
+    "max": 25,
+    "name": "fall_crate",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "Very delicious speed boosting magic ness",
+    "expiry_time": null,
+    "id": 262,
+    "max": 150,
+    "name": "candy",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "May the odds, forever be in your favor! Make sure your inventory is not full when opening!",
+    "expiry_time": null,
+    "id": 263,
+    "max": 25,
+    "name": "turkey_crate",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": 1209600,
+    "id": 264,
+    "max": 1,
+    "name": "WEAPON_STONE_HATCHET",
+    "weight": 11
+  },
+  {
+    "closeonuse": 0,
+    "description": "Its illegal to hunt without one!",
+    "expiry_time": null,
+    "id": 265,
+    "max": 1,
+    "name": "hunting_license",
+    "weight": 0
+  },
+  {
+    "closeonuse": 0,
+    "description": "Need to loosen something up?",
+    "expiry_time": null,
+    "id": 266,
+    "max": 5,
+    "name": "cuffkeys",
+    "weight": 5
+  },
+  {
+    "closeonuse": 1,
+    "description": "For the ultimate Vrmm Vrmm",
+    "expiry_time": null,
+    "id": 267,
+    "max": 5,
+    "name": "tunerchip",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "May the odds, forever be in your favor! Make sure your inventory is not full when opening!",
+    "expiry_time": null,
+    "id": 268,
+    "max": 25,
+    "name": "winter_crate",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "May the odds, forever be in your favor! Make sure your inventory is not full when opening!",
+    "expiry_time": null,
+    "id": 269,
+    "max": 25,
+    "name": "christmas_crate",
+    "weight": 5
+  },
+  {
+    "closeonuse": 0,
+    "description": "Yum, a sugar rush!",
+    "expiry_time": null,
+    "id": 270,
+    "max": 25,
+    "name": "candy_cane",
+    "weight": 0
+  },
+  {
+    "closeonuse": 1,
+    "description": "for fixing cars",
+    "expiry_time": null,
+    "id": 271,
+    "max": 3,
+    "name": "fixkit",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 272,
+    "max": 25,
+    "name": "meth_ass",
+    "weight": 1
+  },
+  {
+    "closeonuse": 0,
+    "description": "",
+    "expiry_time": null,
+    "id": 273,
+    "max": 1,
+    "name": "pdbadge",
+    "weight": 1
+  }
+]

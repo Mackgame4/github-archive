@@ -1,0 +1,106 @@
+---
+title: 'Sobre Nós'
+description: 'Meet the team'
+
+team: [
+    {
+        name: 'Valentina Ruas',
+        role: 'Presidente',
+        image: '/images/teamImages/valentina_ruas.png',
+        url: ''
+    },
+    {
+        name: 'Cátia Henriques',
+        role: 'Vice Presidente',
+        image: '/images/teamImages/catia_henriques.png',
+        url: ''
+    },
+    {
+        name: 'Alice Almeida',
+        role: 'Secretária',
+        image: '/images/teamImages/alice_almeida.png',
+        url: ''
+    },
+    {
+        name: 'Ana Cardoso',
+        role: 'Tesoureira',
+        image: '/images/teamImages/ana_cardoso.png',
+        url: ''
+    },
+    {
+        name: 'Mariana Rico',
+        role: 'Tesoureira Adjunta',
+        image: '/images/teamImages/mariana_rico.png',
+        url: ''
+    },
+    {
+        name: 'Bruno Pinto',
+        role: 'Diretor de Relações Externas',
+        image: '/images/teamImages/bruno_pinto.png',
+        url: ''
+    },
+    {
+        name: 'Rafaela Pinto',
+        role: 'Diretora de Empregabilidade',
+        image: '/images/teamImages/rafaela_pinto.png',
+        url: ''
+    },
+    {
+        name: 'Chiara Gonçalves',
+        role: 'Diretora de Tertúlias e Formações',
+        image: '/images/teamImages/chiara_goncalves.png',
+        url: ''
+    },
+    {
+        name: 'Beatriz Fernandes',
+        role: 'Diretora do Criativo',
+        image: '/images/teamImages/beatriz_fernandes.png',
+        url: ''
+    },
+    {
+        name: 'Eduardo Perez',
+        role: 'Diretor de Simulações',
+        image: '/images/teamImages/eduardo_perez.png',
+        url: ''
+    },
+    {
+        name: 'Isabela Gama',
+        role: 'Diretora de Comunicação, Editorial e Imagem',
+        image: '/images/teamImages/isabela_gama.png',
+        url: ''
+    },
+    {
+        name: 'Israel Goldoni',
+        role: 'Diretor de Colóquios',
+        image: '/images/teamImages/israel_goldoni.png',
+        url: ''
+    },
+    {
+        name: 'Inês Melo',
+        role: 'Diretora de Apoio ao Aluno',
+        image: '/images/teamImages/ines_melo.png',
+        url: ''
+    },
+    {
+        name: 'João Almeida',
+        role: 'Diretor de Recursos Humanos',
+        image: '/images/teamImages/joao_almeida.png',
+        url: ''
+    }
+]
+---
+import DefaultPageLayout from '$/layouts/default.astro'
+import Prose from '$/components/mdx/Prose.astro'
+import TeamRender from '$/components/mdx/TeamRender.astro'
+
+<DefaultPageLayout content={{ title: frontmatter.title, description: frontmatter.description }}>
+    <Prose>
+        O **CECRI**, há muitos anos, foi criado na Universidade por causa do espírito não conformista de jovens que queriam buscar um ensino além do óbvio, queriam instigar discussões e pôr em pauta questões marginalizadas no ensino das Relações Internacionais, e, assim, mostrar o papel que os estudantes deveriam ter no desenvolvimento desta área de estudo em Portugal. Foi esta ambição que desde então revolucionou nosso curso na Universidade do Minho.
+
+        O **Centro de Estudos do Curso de Relações Internacionais** é uma associação estudantil composta por alunos em *Relações Internacionais* da *Universidade do Minho*.
+        Criado em 1983, o **CECRI** é conhecido por ser o núcleo mais antigo da universidade e conta em sua estrutura com os seguintes departamentos: Empregabilidade, Apoio ao Aluno, Recursos Externos, Recursos Humanos, Colóquios, Simulações, Tertúlias, Criativo e Comunicação. Além disso, a associação é conhecida por sua capacidade em fornecer aos alunos das RI uma oportunidade de colocar em prática os conhecimentos teóricos de sala de aula, através de eventos renomados como as Simulações das Nações Unidas, Cafés Debates, workshops e os Colóquios de RI, eventos esses que o **CECRI** promove todos os anos.
+
+        # Our Team
+        <TeamRender content={frontmatter.team} />
+    </Prose>
+</DefaultPageLayout>

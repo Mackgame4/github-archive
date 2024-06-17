@@ -1,0 +1,35 @@
+:host {
+  display: block;
+}
+
+.icon {
+  width: fit-content;
+  height: fit-content;
+  fill: currentColor;
+  &--thin {
+    stroke-width: 1.5px !important;
+  }
+
+  &--normal {
+    stroke-width: 2px !important;
+  }
+
+  &--thicker {
+    stroke-width: 2.5px !important;
+  }
+
+  &--thick {
+    stroke-width: 3px !important;
+  }
+}
+
+.icon svg {
+  width: 100%;
+  height: 100%;
+  stroke: currentColor;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  transition: stroke 0.2s ease-in-out;
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.chat-window {
+    --size: calc(((2.7vh * 1.2)) * 6);
+
+    position: absolute;
+    right: calc(2.77vh);
+    top: calc(65% - (var(--size) / 2));
+    height: var(--size) !important;
+
+    background: inherit !important;
+
+    text-align: right;
+
+    left: auto;
+
+    user-select: none;
+}
+
+.msg {
+    /*font-family: Font2, sans-serif;*/
+    color: #fff;
+
+    font-size: calc(1.7vh); /* 13px in 720p, calc'd by width */
+    filter: url(#svgDropShadowFilter);
+
+    line-height: calc(2.7vh * 1.2);
+
+    margin-bottom: 0;
+}
+
+.chat-messages {
+    margin: 0;
+    height: 100%;
+}
+
+.msg > span > span > b {
+    vertical-align: baseline;
+    padding-right: 11px;
+
+    line-height: 1;
+
+    font-size: calc(2.7vh);
+}
+
+.msg > span > b > span:after {
+    content: ': ';
+}
+
+.msg > span > span > span {
+    vertical-align: baseline;
+}
+
+.msg i:first-of-type {
+    font-style: normal;
+    color: #c0c0c0;
+}
+
+.chat-input {
+    position: absolute;
+    right: calc(2.17vh);
+    bottom: calc(1.98vh);
+
+    background: inherit !important;
+
+    text-align: right;
+
+    top: auto;
+    left: auto;
+
+    height: auto;
+}
+
+.chat-input > div {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    outline: calc(0.28vh / 2) solid rgba(0, 0, 0, 0.9);
+    padding: calc(0.28vh / 2);
+}
+
+.chat-input .prefix {
+    margin: 0;
+    margin-left: 0.7%;
+    margin-top: -0.1%;
+    line-height: 2.8vh;
+}
+
+.chat-input .prefix.any {
+    opacity: 0.8;
+}
+
+.chat-input .prefix.any:before {
+    content: '[';
+}
+
+.chat-input .prefix.any:after {
+    content: ']';
+}
+
+.chat-input > div + div {
+    position: absolute;
+    left: 0.28vh;
+    bottom: 3.18vh;
+    width: 99%;
+    text-align: left;
+}
+
+.suggestions {
+    background: transparent;
+    font-size: calc(1.5vh);
+}
+
+textarea {
+    background: transparent;
+    padding: 0.35vh;
+}
+
+@media screen and (min-aspect-ratio: 21/9) {
+	.chat-window, .chat-input {
+		right: calc(12.8vw);
+	}
+}
+
+@media screen and (min-aspect-ratio: 32/9) {
+	.chat-window, .chat-input {
+		right: calc(25vw);
+	}
+}

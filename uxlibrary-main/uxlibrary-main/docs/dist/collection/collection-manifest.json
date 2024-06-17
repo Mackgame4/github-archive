@@ -1,0 +1,22 @@
+{
+  "entries": [
+    "./components/ux-badge/ux-badge.js",
+    "./components/ux-button/ux-button.js",
+    "./components/ux-card/ux-card.js",
+    "./components/ux-icon/ux-icon.js",
+    "./components/ux-otp/ux-otp.js",
+    "./components/ux-playground/ux-playground.js",
+    "./components/ux-provider/ux-provider.js",
+    "./components/ux-select/ux-select.js",
+    "./components/ux-slider/ux-slider.js",
+    "./components/ux-textinput/ux-textinput.js",
+    "./components/ux-video/ux-video.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "2.22.2",
+    "typescriptVersion": "4.9.4"
+  },
+  "collections": [],
+  "bundles": []
+}

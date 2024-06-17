@@ -1,0 +1,1 @@
+Core.Modules.Functions = Core.Modules.Functions or {}

@@ -1,0 +1,29 @@
+# Ignore LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lot
+*.nlo
+*.lof
+*.synctex.gz
+*.synctex(busy)
+*.fdb_latexmk
+*.fls
+*.gz
+
+# Ignore compiled PDF files
+*.pdf
+
+# Ignore temporary files
+*.swp
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore LaTeX generated directories
+/_minted-*/

@@ -1,0 +1,12 @@
+:host {
+  display: block;
+}
+
+.custom-padding {
+  padding-bottom: 1.8px !important;
+}
+
+.custom-margin>.custom-margin-child {
+  position: relative;
+  top: 12px;
+}

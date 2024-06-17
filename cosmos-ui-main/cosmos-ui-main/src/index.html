@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Cosmos UI Playground</title>
+    <script type="module" src="/build/cosmosui.esm.js"></script>
+    <script nomodule src="/build/cosmosui.js"></script>
+  </head>
+  <body>
+    <c-provider theme="enterprise">
+      <div style="position: fixed; top: 0; right: 0; padding: 20px;">
+        <c-button onclick="document.querySelector('c-provider').classList.toggle('dark')">Toggle Dark Mode</c-button>
+      </div>
+      <div style="padding: 20px; display: flex; flex-direction: column; gap: 20px;">
+      <c-icon name="user"></c-icon>
+      <c-button variant="default" prepend-icon="github">Login with Github</c-button>
+      <c-input placeholder="Enter your name"></c-input>
+      <c-avatar>CN</c-avatar>
+      <c-badge>Badge</c-badge>
+      <c-checkbox description="You agree to our Terms of Service and Privacy Policy.">Accept terms and conditions</c-checkbox>
+      <c-card card-title="Title" card-subtitle="Subtitle" card-description="Description" card-footer="Footer">Body</c-card>
+      <c-switch>Switch</c-switch>
+      <c-alert alert-title="Title" alert-description="Description"></c-alert>
+      <c-slider></c-slider>
+      </div>
+    </c-provider>
+  </body>
+</html>

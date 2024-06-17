@@ -1,0 +1,58 @@
+---
+export const prerender = true
+
+import { getCollection } from 'astro:content'
+import DefaultPageLayout from '../layouts/default.astro'
+import PostPreviewList from '../components/PostPreviewList.astro'
+import Prose from '../components/mdx/Prose.astro'
+import { Content as HeroContent } from './hero.mdx'
+import { SITE } from '../config.ts'
+
+const title = 'Inicio'
+const description = SITE.description ? SITE.description : 'Blog'
+
+const posts = await getCollection('blog')
+---
+<DefaultPageLayout content={{ title, description }} showPageHeader={false}>
+    <div class="hero ">
+        <div class="hero__face">
+            <div class="author-card">
+                <img src="/images/banner.jpg" title="Aalam" />
+            </div>
+        </div>
+        <div class="hero__says">
+            <Prose>
+                <HeroContent/>
+            </Prose>
+        </div>
+    </div>
+    <hr/>
+    <PostPreviewList posts={posts.slice(0, 3) as any} heading="Posts Recentes"/>
+    <div class="page__actions">
+        <a class="action__go-to-blog ink-h" href="/blog" title="Ver Posts">Ver Posts &rarr;</a>
+    </div>
+</DefaultPageLayout>
+
+<style>
+    .hero {
+        @apply flex flex-col md:flex-row gap-8 w-full transition-all pb-4
+    }
+    .hero__face {
+        @apply flex md:flex-none justify-center
+    }
+    .hero__says {
+        @apply flex-1 text-center md:text-left
+    }
+    .author-card {
+        @apply w-56 h-48 md:h-56 rounded-full md:rounded-md
+    }
+    .author-card img {
+        @apply rounded-full h-48 md:h-56 object-cover
+    }
+    .page__actions {
+        @apply flex justify-center md:justify-end py-6
+    }
+    .action__go-to-blog {
+        @apply py-4 hover:underline
+    }
+</style>
