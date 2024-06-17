@@ -1,0 +1,131 @@
+{
+    "ARP.Manifest": {
+		"prefix": "ARP.Manifest",
+		"body": [
+			"fx_version 'cerulean'",
+			"game 'gta5'",
+			"",
+			"author '${1:Author}'",
+			"description '${2:Description}'",
+			"",
+			"server_scripts {",
+				"\t'@arp-libs/util.lua',",
+				"\t'@arp-libs/server/functions.lua',",
+				"\t'@arp-libs/componentLoader.lua',",
+				"\t'server/sv_main.lua',",
+			"}",
+			"",
+			"client_scripts {",
+				"\t'@arp-libs/util.lua',",
+				"\t'@arp-libs/client/util.lua',",
+				"\t'@arp-libs/componentLoader.lua',",
+				"\t'@arp-libs/client/character.lua',",
+				"\t'client/cl_main.lua',",
+			"}",
+		]
+	},
+
+	// Component Stuff
+	"OnComponentUpdate": {
+		"prefix": "OnComponentUpdate",
+		"body": [
+			"function OnComponentUpdate(c)",
+			"\tif not c or c == 'Callbacks' then",
+			"\t",
+			"\tend",
+			"\t",
+			"\tif not c then -- So init things don't happen time a component updates",
+			"\t",
+			"\tend",
+			"end",
+		]
+	},
+	"OnComponentRegister": {
+		"prefix": "OnComponentRegister",
+		"body": [
+			"AddEventHandler('ARP:Shared:Components:RegisterReady', function()",
+			"\texports['arp-base']:RegisterComponent('${1:Component Name}', ${2:Component Object})",
+			"end)",
+		]
+	},
+
+	// Character Stuff
+	"OnCharacterLoad": {
+		"prefix": "OnCharacterLoad",
+		"body": [
+			"function OnCharacterLoad()",
+			"\t",
+			"end",
+		]
+	},
+	"OnCharacterUnload": {
+		"prefix": "OnCharacterUnload",
+		"body": [
+			"function OnCharacterUnload()",
+			"\t",
+			"end",
+		]
+	},
+	"OnCharacterLoadFull": {
+		"prefix": "OnCharacterLoadFull",
+		"body": [
+			"function OnCharacterLoadFull()",
+			"\t -- character is now fully loaded with their ped spawned.",
+			"end",
+		]
+	},
+	"OnCharacterDeath": {
+		"prefix": "OnCharacterDeath",
+		"body": [
+			"function OnCharacterDeath(state)",
+			"\tprint('isDead', state)",
+			"end",
+		]
+	},
+	"OnCharacterDataUpdate": {
+		"prefix": "OnCharacterDataUpdate",
+		"body": [
+			"function OnCharacterDataUpdate(k, v)",
+			"\t -- Characters Data has been updated",
+			"end",
+		]
+	},
+
+	"Client.Notify": {
+		"prefix": [ "Client.Notify", "Components.Notify:Send", "Components.Notify.Send" ],
+		"body": [
+			"Components.Notify:Send('${1:Type}', '${2:Title}', '${3:Text}', '${4:Icon}')"
+		]
+	},
+	"Client.Notify.Info": {
+		"prefix": [ "Client.Notify.Info", "Components.Notify:Info", "Components.Notify.Info" ],
+		"body": [
+			"Components.Notify:Info('${1:Title}', '${2:Text}', '${3:Icon}')"
+		]
+	},
+	"Client.Notify.Warn": {
+		"prefix": [ "Client.Notify.Warn", "Components.Notify:Warn", "Components.Notify.Warn" ],
+		"body": [
+			"Components.Notify:Warn('${1:Title}', '${2:Text}', '${3:Icon}')"
+		]
+	},
+	"Client.Notify.Error": {
+		"prefix": [ "Client.Notify.Error", "Components.Notify:Error", "Components.Notify.Error" ],
+		"body": [
+			"Components.Notify:Error('${1:Title}', '${2:Text}', '${3:Icon}')"
+		]
+	},
+	"Client.Notify.Success": {
+		"prefix": [ "Client.Notify.Success", "Components.Notify:Success", "Components.Notify.Success" ],
+		"body": [
+			"Components.Notify:Success('${1:Title}', '${2:Text}', '${3:Icon}')"
+		]
+	},
+
+	"Server.Notify": {
+		"prefix": [ "Server.Notify" ],
+		"body": [
+			"TriggerClientEvent('Client:Notify', ${1:Source}, '${2:Type}', '${3:Title}', '${4:Text}', '${5:Icon}')"
+		]
+	},
+}

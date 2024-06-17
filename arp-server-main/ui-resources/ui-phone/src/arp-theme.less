@@ -1,0 +1,32 @@
+
+// Colours
+
+@dark: rgba(50, 50, 50, 1);
+@darker: rgba(20, 20, 20, 1);
+@containerbg: #16161dce;
+@medium: rgba(100, 100, 100, 1);
+@light: rgba(215, 215, 215, 1);
+@lighter: #F2F2F2;
+@red1: #cc0001;
+@red2: #b40000;
+@red3: #940000;
+@midnight: #12475A;
+@cyan: #006064;
+@rblack: #16161d;
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+}
+
+&::-webkit-scrollbar {
+    width: 5px;
+}
+&::-webkit-scrollbar-track {
+    background: transparent; 
+}
+&::-webkit-scrollbar-thumb {
+    background: @darker; 
+}
