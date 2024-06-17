@@ -1,0 +1,6 @@
+RegisterNetEvent("_core:Server:log:warning", function(resource, msg)
+    log("Warning", resource, msg)
+end)
+RegisterNetEvent("_core:Server:log:error", function(resource, msg)
+    log("Error", resource, msg, true)
+end)

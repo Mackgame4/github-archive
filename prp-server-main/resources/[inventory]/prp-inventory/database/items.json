@@ -1,0 +1,3072 @@
+[
+  {
+    "can_remove": 1,
+    "label": "Acetone",
+    "limit": 5,
+    "name": "acetone",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Advanced Repair Kit",
+    "limit": 3,
+    "name": "advanced_fixkit",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Advanced Lockpick",
+    "limit": 15,
+    "name": "advanced_lockpick",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Alive Chicken",
+    "limit": 50,
+    "name": "alive_chicken",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Alive Pig",
+    "limit": 50,
+    "name": "alive_pig",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Aluminum",
+    "limit": 15,
+    "name": "aluminum",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Arcade Token",
+    "limit": 50,
+    "name": "arcade_token",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "AR Left Part",
+    "limit": 3,
+    "name": "ar_left",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "AR Right Part",
+    "limit": 3,
+    "name": "ar_right",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Rifle Box",
+    "limit": 1,
+    "name": "ar_weapons_box",
+    "rare": 0,
+    "weight": 12
+  },
+  {
+    "can_remove": 1,
+    "label": "Bandage",
+    "limit": 25,
+    "name": "bandage",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Barrel",
+    "limit": 25,
+    "name": "barrel",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Striped Bass",
+    "limit": 20,
+    "name": "bass",
+    "rare": 0,
+    "weight": 4
+  },
+  {
+    "can_remove": 1,
+    "label": "Battery",
+    "limit": 10,
+    "name": "battery",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Beer",
+    "limit": 25,
+    "name": "beer",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Holy Bible",
+    "limit": 10,
+    "name": "bible",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Binoculars",
+    "limit": 1,
+    "name": "binoculars",
+    "rare": 0,
+    "weight": 10
+  },
+  {
+    "can_remove": 1,
+    "label": "Black Bandana",
+    "limit": 250,
+    "name": "blackbandana",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Bloody Marry",
+    "limit": 25,
+    "name": "bloody_marry",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Blue Bandana",
+    "limit": 250,
+    "name": "bluebandana",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Blue Vault Card",
+    "limit": 10,
+    "name": "bluevaultcard",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Bobby Pin",
+    "limit": 10,
+    "name": "bobbypin",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Body Attachment",
+    "limit": 25,
+    "name": "body_attachment",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Bong",
+    "limit": 1,
+    "name": "bong",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Boombox",
+    "limit": 1,
+    "name": "boombox",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Plastic Bottle",
+    "limit": 25,
+    "name": "bottle",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Boxing Championship",
+    "limit": 10,
+    "name": "boxing_belt",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Bracelet",
+    "limit": 25,
+    "name": "bracelet",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Sandwich",
+    "limit": 25,
+    "name": "bread",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Breakfast Sandwich",
+    "limit": 25,
+    "name": "breakfast_sandwich",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Hamburger",
+    "limit": 25,
+    "name": "burger",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Fowl Burger",
+    "limit": 25,
+    "name": "burger_fowl",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Vegan Burger",
+    "limit": 15,
+    "name": "burger_vegan",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Burrito",
+    "limit": 15,
+    "name": "burrito",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Sticky Bomb",
+    "limit": 10,
+    "name": "c4",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Candy",
+    "limit": 150,
+    "name": "candy",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Candy Cane",
+    "limit": 25,
+    "name": "candy_cane",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Cards",
+    "limit": 2,
+    "name": "cards",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Car Battery",
+    "limit": 3,
+    "name": "car_battery",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Car Hood",
+    "limit": 3,
+    "name": "car_hood",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Car Seat",
+    "limit": 3,
+    "name": "car_seat",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Car Side Mirror",
+    "limit": 3,
+    "name": "car_side_mirror",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Car Side Skirt",
+    "limit": 3,
+    "name": "car_side_skirt",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Car Sound System",
+    "limit": 3,
+    "name": "car_sound_system",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Tire",
+    "limit": 3,
+    "name": "car_tire",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Car Wash Supplies",
+    "limit": 10,
+    "name": "car_wash",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Casing",
+    "limit": 25,
+    "name": "casing",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Cat Fish",
+    "limit": 20,
+    "name": "catfish",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Champagne",
+    "limit": 25,
+    "name": "champagne",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Chips",
+    "limit": 20,
+    "name": "chips",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Meteorite Bar",
+    "limit": 25,
+    "name": "chocolate",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Valentines Chocolates",
+    "limit": 25,
+    "name": "chocolate_box",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Christmas Loot Box",
+    "limit": 25,
+    "name": "christmas_crate",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Cigar",
+    "limit": 25,
+    "name": "cigar",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Cigarette",
+    "limit": 25,
+    "name": "cigarette",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Clutch",
+    "limit": 3,
+    "name": "clutch",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Coffee",
+    "limit": 25,
+    "name": "coffee",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Coin",
+    "limit": 10,
+    "name": "coin",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Coke Brick",
+    "limit": 5,
+    "name": "coke",
+    "rare": 0,
+    "weight": 15
+  },
+  {
+    "can_remove": 1,
+    "label": "Coke Ounce",
+    "limit": 10,
+    "name": "coke_ounce",
+    "rare": 0,
+    "weight": 2
+  },
+  {
+    "can_remove": 1,
+    "label": "Coke Bag",
+    "limit": 50,
+    "name": "coke_pooch",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Cola",
+    "limit": 15,
+    "name": "cola",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Condom",
+    "limit": 25,
+    "name": "condom",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Copper",
+    "limit": 25,
+    "name": "copper",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Coyote Skin",
+    "limit": 25,
+    "name": "coyoteskin",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Crypto Stick",
+    "limit": 20,
+    "name": "cryptostick",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Handcuff keys",
+    "limit": 5,
+    "name": "cuffkeys",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Handcuffs",
+    "limit": 5,
+    "name": "cuffs",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Deer Meat",
+    "limit": 25,
+    "name": "deermeat",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Diamond",
+    "limit": 15,
+    "name": "diamond",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Diamond Box",
+    "limit": 10,
+    "name": "dia_box",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Dice",
+    "limit": 2,
+    "name": "dice",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Dildo",
+    "limit": 25,
+    "name": "dildo",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Pistol Ammo",
+    "limit": -1,
+    "name": "disc_ammo_pistol",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Pistol Ammo Large",
+    "limit": -1,
+    "name": "disc_ammo_pistol_large",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Rifle Ammo",
+    "limit": -1,
+    "name": "disc_ammo_rifle",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Rifle Ammo Large",
+    "limit": -1,
+    "name": "disc_ammo_rifle_large",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Shotgun Shells",
+    "limit": -1,
+    "name": "disc_ammo_shotgun",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Shotgun Shells Large",
+    "limit": -1,
+    "name": "disc_ammo_shotgun_large",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "SMG Ammo",
+    "limit": -1,
+    "name": "disc_ammo_smg",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "SMG Ammo Large",
+    "limit": -1,
+    "name": "disc_ammo_smg_large",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Sniper Ammo",
+    "limit": -1,
+    "name": "disc_ammo_snp",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Sniper Ammo Large",
+    "limit": -1,
+    "name": "disc_ammo_snp_large",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Raw Dolphin",
+    "limit": 20,
+    "name": "dolphin",
+    "rare": 0,
+    "weight": 10
+  },
+  {
+    "can_remove": 1,
+    "label": "Donut",
+    "limit": 25,
+    "name": "donut",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Drill",
+    "limit": 4,
+    "name": "drill",
+    "rare": 0,
+    "weight": 7
+  },
+  {
+    "can_remove": 1,
+    "label": "Drill Bit",
+    "limit": 25,
+    "name": "drill_bit",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Dusche Gold",
+    "limit": 15,
+    "name": "dusche",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Earring",
+    "limit": 25,
+    "name": "earring",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Spring Goodie Box",
+    "limit": 25,
+    "name": "easter_crate",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Chocolate Easter Egg",
+    "limit": 50,
+    "name": "easter_egg",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Eggs and Bacon",
+    "limit": 15,
+    "name": "eggs_and_bacon",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Egg Crate",
+    "limit": 25,
+    "name": "egg_crate",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "8ct Gold Chain",
+    "limit": 25,
+    "name": "eight_goldchain",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Electronics",
+    "limit": 15,
+    "name": "electronics",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Energy Bar",
+    "limit": 25,
+    "name": "energy_bar",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Fall Loot Box",
+    "limit": 25,
+    "name": "fall_crate",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Fertilizer",
+    "limit": -1,
+    "name": "fertilizer",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Firework",
+    "limit": 15,
+    "name": "firework",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Fish Bait",
+    "limit": 50,
+    "name": "fishbait",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Fishing Rod",
+    "limit": 2,
+    "name": "fishingrod",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Repair Kit",
+    "limit": 3,
+    "name": "fixkit",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Flash Light",
+    "limit": 3,
+    "name": "flashlight",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Flash Compensator",
+    "limit": 25,
+    "name": "flash_compensator",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Fourth of July Loot Crate",
+    "limit": 25,
+    "name": "fourth_crate",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Frappuccino",
+    "limit": 15,
+    "name": "frappuccino",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "French Toast",
+    "limit": 15,
+    "name": "french_toast",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Fries",
+    "limit": 15,
+    "name": "fries",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Front Bumper",
+    "limit": 3,
+    "name": "front_bumper",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Gameboy",
+    "limit": 25,
+    "name": "gameboy",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Gauze",
+    "limit": 25,
+    "name": "gauze",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Gin and Tonic",
+    "limit": 25,
+    "name": "gintonic",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Glass",
+    "limit": 25,
+    "name": "glass",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Gold",
+    "limit": 25,
+    "name": "gold",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Gold Bar",
+    "limit": 50,
+    "name": "gold_bar",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Gold Chain",
+    "limit": 25,
+    "name": "gold_chain",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Gold Watch",
+    "limit": 25,
+    "name": "gold_watch",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Green Bandana",
+    "limit": 250,
+    "name": "greenbandana",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Green Vault Card",
+    "limit": 10,
+    "name": "greenvaultcard",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Grey Bandana",
+    "limit": 250,
+    "name": "greybandana",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Grip",
+    "limit": 10,
+    "name": "grip",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Black Security Card",
+    "limit": 10,
+    "name": "gruppe_black_card",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Handguard Mount",
+    "limit": 25,
+    "name": "handguard_mount",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Woodcutting Axe",
+    "limit": 10,
+    "name": "hatchet_lj",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Headphones",
+    "limit": 25,
+    "name": "headphones",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Hemp-tea",
+    "limit": 25,
+    "name": "hemptea",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Horchata",
+    "limit": 15,
+    "name": "horchata",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Hotdog",
+    "limit": 15,
+    "name": "hotdog",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Blubber",
+    "limit": 20,
+    "name": "hump",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Hunting License",
+    "limit": 1,
+    "name": "hunting_license",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Hydrocodone",
+    "limit": 20,
+    "name": "hydrocodone",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Ice-tea",
+    "limit": 25,
+    "name": "icetea",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "ID Card",
+    "limit": 5,
+    "name": "id_card",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Iron",
+    "limit": 25,
+    "name": "iron",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Jagermeister",
+    "limit": 25,
+    "name": "jager",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Katana",
+    "limit": 10,
+    "name": "katana",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Cursed Katana",
+    "limit": 10,
+    "name": "katana_cursed",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Hacker Laptop",
+    "limit": 1,
+    "name": "laptop_h",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Heavy Body Armor",
+    "limit": 3,
+    "name": "large_armor",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Vertical Grip",
+    "limit": 25,
+    "name": "large_grip",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Large Stock",
+    "limit": 25,
+    "name": "large_stock",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Latte",
+    "limit": 15,
+    "name": "latte",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Lean",
+    "limit": 25,
+    "name": "lean",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Leather",
+    "limit": 25,
+    "name": "leather",
+    "rare": 0,
+    "weight": 2
+  },
+  {
+    "can_remove": 1,
+    "label": "Lithium Batteries",
+    "limit": 10,
+    "name": "lithium",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Lockpick",
+    "limit": 5,
+    "name": "lockpick",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "LostMC Vest",
+    "limit": 250,
+    "name": "lostvest",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Lotion",
+    "limit": 10,
+    "name": "lotion",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Herbal Lotion",
+    "limit": 10,
+    "name": "lotion_medical",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "LSD Tablet",
+    "limit": 20,
+    "name": "lsd_tab",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Magazine",
+    "limit": 25,
+    "name": "magazine",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Porn Mag",
+    "limit": 25,
+    "name": "magazine_book",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Martini",
+    "limit": 15,
+    "name": "martini",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Medkit",
+    "limit": 5,
+    "name": "medkit",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Amphetamine",
+    "limit": 20,
+    "name": "meth",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Portable Cooker",
+    "limit": 5,
+    "name": "methlab",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Ass Meth",
+    "limit": 20,
+    "name": "meth_ass",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Crystal Meth",
+    "limit": 30,
+    "name": "meth_pooch",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Microphone",
+    "limit": 10,
+    "name": "microphone",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Milk",
+    "limit": 50,
+    "name": "milk",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Milk Shake",
+    "limit": 15,
+    "name": "milkshake",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Mixtape",
+    "limit": 20,
+    "name": "mixtape",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Morphine",
+    "limit": 20,
+    "name": "morphine",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Movie Ticket",
+    "limit": 15,
+    "name": "movie_ticket",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Mountain Lion Meat",
+    "limit": 25,
+    "name": "mtllionmeat",
+    "rare": 0,
+    "weight": 4
+  },
+  {
+    "can_remove": 1,
+    "label": "Muffin",
+    "limit": 15,
+    "name": "muffin",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Mysterious Vial",
+    "limit": 10,
+    "name": "mysterious_vial",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Nachos",
+    "limit": 15,
+    "name": "nachos",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Nintendo Switch",
+    "limit": 25,
+    "name": "nintendoswitch",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Notepad",
+    "limit": 10,
+    "name": "notepad",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Opium Kilo",
+    "limit": 5,
+    "name": "opium",
+    "rare": 0,
+    "weight": 15
+  },
+  {
+    "can_remove": 1,
+    "label": "Opium Bundle",
+    "limit": 10,
+    "name": "opium_ounce",
+    "rare": 0,
+    "weight": 2
+  },
+  {
+    "can_remove": 1,
+    "label": "Heroin Vial",
+    "limit": 50,
+    "name": "opium_pooch",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Orca Tail",
+    "limit": 20,
+    "name": "orca",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Mined Ore",
+    "limit": 25,
+    "name": "ore",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Oregano",
+    "limit": 25,
+    "name": "oregano",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Oxycontin",
+    "limit": 20,
+    "name": "oxy",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Packaged Chicken",
+    "limit": 50,
+    "name": "packaged_chicken",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Packaged Pig",
+    "limit": 50,
+    "name": "packaged_pig",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Police Badge",
+    "limit": 1,
+    "name": "pdbadge",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Pearl Necklace",
+    "limit": 25,
+    "name": "pearl_necklace",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Pet Chicken",
+    "limit": 10,
+    "name": "pet_chicken",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Pet Fish",
+    "limit": 10,
+    "name": "pet_fish",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Pet Food",
+    "limit": 20,
+    "name": "pet_food",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Pet Rock",
+    "limit": 10,
+    "name": "pet_rock",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Pet Turtle",
+    "limit": 10,
+    "name": "pet_turtle",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Phone",
+    "limit": 5,
+    "name": "phone",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Boomer Phone",
+    "limit": 15,
+    "name": "phone_boomer",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Nokia Phone",
+    "limit": 15,
+    "name": "phone_nokia",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Pixel 2 Phone",
+    "limit": 15,
+    "name": "phone_pixel2",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Shit Phone",
+    "limit": 15,
+    "name": "phone_poop",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Samsung S8 Phone",
+    "limit": 15,
+    "name": "phone_samsungs8",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Pina Colada",
+    "limit": 15,
+    "name": "pina_colada",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Pink Bandana",
+    "limit": 250,
+    "name": "pinkbandana",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Pistol Ammo",
+    "limit": 5,
+    "name": "pistol_ammo",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Pistol Left Part",
+    "limit": 3,
+    "name": "pistol_left",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Pistol Right Part",
+    "limit": 3,
+    "name": "pistol_right",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Pistol Box",
+    "limit": 1,
+    "name": "pistol_weapons_box",
+    "rare": 0,
+    "weight": 12
+  },
+  {
+    "can_remove": 1,
+    "label": "Pizza",
+    "limit": 5,
+    "name": "pizza",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Plastic",
+    "limit": 25,
+    "name": "plastic",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Popcorn",
+    "limit": 15,
+    "name": "popcorn",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Prison Food",
+    "limit": 15,
+    "name": "prison_food",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Sanded Wood",
+    "limit": 10,
+    "name": "pro_wood",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "PSP",
+    "limit": 25,
+    "name": "psp",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Purple Bandana",
+    "limit": 250,
+    "name": "purplebandana",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Rabbit Meat",
+    "limit": 25,
+    "name": "rabbitmeat",
+    "rare": 0,
+    "weight": 2
+  },
+  {
+    "can_remove": 1,
+    "label": "Racing Dongle",
+    "limit": 1,
+    "name": "racing_dongle",
+    "rare": 0,
+    "weight": 2
+  },
+  {
+    "can_remove": 1,
+    "label": "Racing Rims",
+    "limit": 3,
+    "name": "racing_rims",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Radio",
+    "limit": 5,
+    "name": "radio",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Raybans",
+    "limit": 25,
+    "name": "raybans",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Reciever Assembly",
+    "limit": 25,
+    "name": "reciever_assembly",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Reciever Cover",
+    "limit": 25,
+    "name": "reciever_cover",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Recyclable",
+    "limit": 25,
+    "name": "recyclable",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Red Bandana",
+    "limit": 250,
+    "name": "redbandana",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Red Vault Card",
+    "limit": 10,
+    "name": "redvaultcard",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Cigarette Pack",
+    "limit": 10,
+    "name": "redwood_pack",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Assault Rifle Ammo",
+    "limit": 5,
+    "name": "rifle_ammo",
+    "rare": 0,
+    "weight": 7
+  },
+  {
+    "can_remove": 1,
+    "label": "Rims",
+    "limit": 3,
+    "name": "rims",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Ring",
+    "limit": 25,
+    "name": "ring",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Engagement Ring",
+    "limit": 25,
+    "name": "ring_engagement",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Wedding Ring",
+    "limit": 25,
+    "name": "ring_wedding",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Rose",
+    "limit": 20,
+    "name": "rose",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Rainbow Trout",
+    "limit": 20,
+    "name": "rtrout",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Rubber",
+    "limit": 15,
+    "name": "rubber",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Rum",
+    "limit": 15,
+    "name": "rum",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Sake",
+    "limit": 15,
+    "name": "sake",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "LT Salsa",
+    "limit": 25,
+    "name": "salsa",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Sandwich",
+    "limit": 25,
+    "name": "sandwich",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Panini",
+    "limit": 15,
+    "name": "sandwich_panini",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Scanner",
+    "limit": 1,
+    "name": "scanner",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Scrap Metal",
+    "limit": 25,
+    "name": "scrap_metal",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Scratchoff",
+    "limit": 250,
+    "name": "scratchoff",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Used Scratchoff Ticket",
+    "limit": 250,
+    "name": "scratchoff_used",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Screen",
+    "limit": 5,
+    "name": "screen",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Screw Driver",
+    "limit": 10,
+    "name": "screwdriver",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Crate",
+    "limit": 1,
+    "name": "scuba_crate",
+    "rare": 0,
+    "weight": 100
+  },
+  {
+    "can_remove": 1,
+    "label": "Oxygen Mask",
+    "limit": 10,
+    "name": "scuba_tank",
+    "rare": 0,
+    "weight": 15
+  },
+  {
+    "can_remove": 1,
+    "label": "Secret File",
+    "limit": 10,
+    "name": "secret_file",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Seed Weed",
+    "limit": -1,
+    "name": "seed_weed",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Shark Fin",
+    "limit": 20,
+    "name": "shark",
+    "rare": 0,
+    "weight": 10
+  },
+  {
+    "can_remove": 1,
+    "label": "Shotgun Ammo",
+    "limit": 5,
+    "name": "shotgun_ammo",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Shrouded Barrel",
+    "limit": 25,
+    "name": "shrouded_barrel",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Silencer",
+    "limit": 12,
+    "name": "silencer",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Slaughtered Chicken",
+    "limit": 50,
+    "name": "slaughtered_chicken",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Slaughtered Pig",
+    "limit": 50,
+    "name": "slaughtered_pig",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Slushy",
+    "limit": 15,
+    "name": "slushy",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Light Body Armor",
+    "limit": 3,
+    "name": "small_armor",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Angled Grip",
+    "limit": 25,
+    "name": "small_grip",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Small Stock",
+    "limit": 25,
+    "name": "small_stock",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "SMG Left Part",
+    "limit": 3,
+    "name": "smg_left",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "SMG Right Part",
+    "limit": 3,
+    "name": "smg_right",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "SMG Box",
+    "limit": 1,
+    "name": "smg_weapons_box",
+    "rare": 0,
+    "weight": 12
+  },
+  {
+    "can_remove": 1,
+    "label": "Special Key",
+    "limit": 50,
+    "name": "special_key",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Spoiler",
+    "limit": 3,
+    "name": "spoiler",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Sprunk",
+    "limit": 15,
+    "name": "sprunk",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Steel",
+    "limit": 25,
+    "name": "steel",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Steering Wheel",
+    "limit": 4,
+    "name": "steering_wheel",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Raw Stingray",
+    "limit": 20,
+    "name": "stingray",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Sub-Machine Gun Ammo",
+    "limit": 5,
+    "name": "sub_ammo",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Tacos",
+    "limit": 20,
+    "name": "tacos",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Fish Tacos",
+    "limit": 15,
+    "name": "tacos_fish",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Teal Bandana",
+    "limit": 250,
+    "name": "tealbandana",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Teddy Bear",
+    "limit": 5,
+    "name": "teddy_bear",
+    "rare": 0,
+    "weight": 2
+  },
+  {
+    "can_remove": 1,
+    "label": "10ct Gold Chain",
+    "limit": 25,
+    "name": "ten_goldchain",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Tequila",
+    "limit": 15,
+    "name": "tequila",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Thermal Charge",
+    "limit": 5,
+    "name": "thermal_charge",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Thermite",
+    "limit": 5,
+    "name": "thermite",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Tire",
+    "limit": 3,
+    "name": "tire",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Tissue Box",
+    "limit": 10,
+    "name": "tissue_box",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Trigger Assembly",
+    "limit": 25,
+    "name": "trigger_assembly",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Trout",
+    "limit": 20,
+    "name": "trout",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Tuner Chip",
+    "limit": 5,
+    "name": "tunerchip",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Turkey Loot Box",
+    "limit": 25,
+    "name": "turkey_crate",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Hacking USB",
+    "limit": 10,
+    "name": "usbhack",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Viagra",
+    "limit": 20,
+    "name": "viagra",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Vodka",
+    "limit": 15,
+    "name": "vodka",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Wallet",
+    "limit": 10,
+    "name": "wallet",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Watch",
+    "limit": 25,
+    "name": "watch",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Casio Watch",
+    "limit": 25,
+    "name": "watch_casio",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Rolex Watch",
+    "limit": 25,
+    "name": "watch_rolex",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Water",
+    "limit": 15,
+    "name": "water",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Water Bottle",
+    "limit": 20,
+    "name": "water_bottle",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Weapons License",
+    "limit": 10,
+    "name": "weaponlicenseone",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "Advanced Rifle",
+    "limit": 1,
+    "name": "WEAPON_ADVANCEDRIFLE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "AP Pistol",
+    "limit": 1,
+    "name": "WEAPON_APPISTOL",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Assault Rifle",
+    "limit": 1,
+    "name": "WEAPON_ASSAULTRIFLE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Assault Shotgun",
+    "limit": 1,
+    "name": "WEAPON_ASSAULTSHOTGUN",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Assault SMG",
+    "limit": 1,
+    "name": "WEAPON_ASSAULTSMG",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Auto Shotgun",
+    "limit": 1,
+    "name": "WEAPON_AUTOSHOTGUN",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Ball",
+    "limit": 1,
+    "name": "WEAPON_BALL",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Bat",
+    "limit": 1,
+    "name": "WEAPON_BAT",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Battle Axe",
+    "limit": 1,
+    "name": "WEAPON_BATTLEAXE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Bottle",
+    "limit": 1,
+    "name": "WEAPON_BOTTLE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Bullpup Rifle",
+    "limit": 1,
+    "name": "WEAPON_BULLPUPRIFLE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Bullpup Shotgun",
+    "limit": 1,
+    "name": "WEAPON_BULLPUPSHOTGUN",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "BZ Gas",
+    "limit": 1,
+    "name": "WEAPON_BZGAS",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Carbine Rifle",
+    "limit": 1,
+    "name": "WEAPON_CARBINERIFLE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Combat MG",
+    "limit": 1,
+    "name": "WEAPON_COMBATMG",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Combat PDW",
+    "limit": 1,
+    "name": "WEAPON_COMBATPDW",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Combat Pistol",
+    "limit": 1,
+    "name": "WEAPON_COMBATPISTOL",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Compact Launcher",
+    "limit": 1,
+    "name": "WEAPON_COMPACTLAUNCHER",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Compact Rifle",
+    "limit": 1,
+    "name": "WEAPON_COMPACTRIFLE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Crowbar",
+    "limit": 1,
+    "name": "WEAPON_CROWBAR",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Dagger",
+    "limit": 1,
+    "name": "WEAPON_DAGGER",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Double Barrel Shotgun",
+    "limit": 1,
+    "name": "WEAPON_DBSHOTGUN",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Digiscanner",
+    "limit": 1,
+    "name": "WEAPON_DIGISCANNER",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Double Action Revolver",
+    "limit": 1,
+    "name": "WEAPON_DOUBLEACTION",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Fire Extinguisher",
+    "limit": 1,
+    "name": "WEAPON_FIREEXTINGUISHER",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Firework Launcher",
+    "limit": 1,
+    "name": "WEAPON_FIREWORK",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Flare",
+    "limit": 1,
+    "name": "WEAPON_FLARE",
+    "rare": 0,
+    "weight": 2
+  },
+  {
+    "can_remove": 1,
+    "label": "Flare Gun",
+    "limit": 1,
+    "name": "WEAPON_FLAREGUN",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Flashlight",
+    "limit": 1,
+    "name": "WEAPON_FLASHLIGHT",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Garbage Bag",
+    "limit": 1,
+    "name": "WEAPON_GARBAGEBAG",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Golf Club",
+    "limit": 1,
+    "name": "WEAPON_GOLFCLUB",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Grenade",
+    "limit": 1,
+    "name": "WEAPON_GRENADE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Gernade Launcher",
+    "limit": 1,
+    "name": "WEAPON_GRENADELAUNCHER",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Gusenberg",
+    "limit": 1,
+    "name": "WEAPON_GUSENBERG",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Hammer",
+    "limit": 1,
+    "name": "WEAPON_HAMMER",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Handcuffs",
+    "limit": 1,
+    "name": "WEAPON_HANDCUFFS",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Hatchet",
+    "limit": 1,
+    "name": "WEAPON_HATCHET",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Heavy Pistol",
+    "limit": 1,
+    "name": "WEAPON_HEAVYPISTOL",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Heavy Shotgun",
+    "limit": 1,
+    "name": "WEAPON_HEAVYSHOTGUN",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Heavy Sniper",
+    "limit": 1,
+    "name": "WEAPON_HEAVYSNIPER",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Homing Launcher",
+    "limit": 1,
+    "name": "WEAPON_HOMINGLAUNCHER",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Knife",
+    "limit": 1,
+    "name": "WEAPON_KNIFE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Knuckle Dusters ",
+    "limit": 1,
+    "name": "WEAPON_KNUCKLE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Machete",
+    "limit": 1,
+    "name": "WEAPON_MACHETE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Machine Pistol",
+    "limit": 1,
+    "name": "WEAPON_MACHINEPISTOL",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Marksman Pistol",
+    "limit": 1,
+    "name": "WEAPON_MARKSMANPISTOL",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Marksman Rifle",
+    "limit": 1,
+    "name": "WEAPON_MARKSMANRIFLE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "MG",
+    "limit": 1,
+    "name": "WEAPON_MG",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Micro SMG",
+    "limit": 1,
+    "name": "WEAPON_MICROSMG",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Minigun",
+    "limit": 1,
+    "name": "WEAPON_MINIGUN",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Mini SMG",
+    "limit": 1,
+    "name": "WEAPON_MINISMG",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Molotov",
+    "limit": 1,
+    "name": "WEAPON_MOLOTOV",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Musket",
+    "limit": 1,
+    "name": "WEAPON_MUSKET",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Police Baton",
+    "limit": 1,
+    "name": "WEAPON_NIGHTSTICK",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Petrol Can",
+    "limit": 1,
+    "name": "WEAPON_PETROLCAN",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Pipe Bomb",
+    "limit": 1,
+    "name": "WEAPON_PIPEBOMB",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Pistol",
+    "limit": 1,
+    "name": "WEAPON_PISTOL",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": ".50 cal pistol",
+    "limit": 1,
+    "name": "WEAPON_PISTOL50",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Pool Cue",
+    "limit": 1,
+    "name": "WEAPON_POOLCUE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Proximity Mine",
+    "limit": 1,
+    "name": "WEAPON_PROXMINE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Pump Shotgun",
+    "limit": 1,
+    "name": "WEAPON_PUMPSHOTGUN",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Rail Gun",
+    "limit": 1,
+    "name": "WEAPON_RAILGUN",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Revolver",
+    "limit": 1,
+    "name": "WEAPON_REVOLVER",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "RPG",
+    "limit": 1,
+    "name": "WEAPON_RPG",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Sawn Off Shotgun",
+    "limit": 1,
+    "name": "WEAPON_SAWNOFFSHOTGUN",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "SMG",
+    "limit": 1,
+    "name": "WEAPON_SMG",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Smoke Gernade",
+    "limit": 1,
+    "name": "WEAPON_SMOKEGRENADE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Sniper Rifle",
+    "limit": 1,
+    "name": "WEAPON_SNIPERRIFLE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Snow Ball",
+    "limit": 1,
+    "name": "WEAPON_SNOWBALL",
+    "rare": 0,
+    "weight": 2
+  },
+  {
+    "can_remove": 1,
+    "label": "SNS Pistol",
+    "limit": 1,
+    "name": "WEAPON_SNSPISTOL",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Special Rifle",
+    "limit": 1,
+    "name": "WEAPON_SPECIALCARBINE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Sticky Bombs",
+    "limit": 1,
+    "name": "WEAPON_STICKYBOMB",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Stinger",
+    "limit": 1,
+    "name": "WEAPON_STINGER",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Stone Hatchet",
+    "limit": 1,
+    "name": "WEAPON_STONE_HATCHET",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Police Taser",
+    "limit": 1,
+    "name": "WEAPON_STUNGUN",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Switch Blade",
+    "limit": 1,
+    "name": "WEAPON_SWITCHBLADE",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Vintage Pistol",
+    "limit": 1,
+    "name": "WEAPON_VINTAGEPISTOL",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Wrench",
+    "limit": 1,
+    "name": "WEAPON_WRENCH",
+    "rare": 0,
+    "weight": 11
+  },
+  {
+    "can_remove": 1,
+    "label": "Weed",
+    "limit": 20,
+    "name": "weed",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Banana Kush",
+    "limit": 20,
+    "name": "weed_bananakush",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Banana Kush",
+    "limit": 20,
+    "name": "weed_bananakush_pooch",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Banana Kush Seed",
+    "limit": 20,
+    "name": "weed_bananakush_seed",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Blue Dream",
+    "limit": 20,
+    "name": "weed_bluedream",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Blue Dream",
+    "limit": 20,
+    "name": "weed_bluedream_pooch",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Blue Dream Seed",
+    "limit": 20,
+    "name": "weed_bluedream_seed",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Medical",
+    "limit": 20,
+    "name": "weed_medical",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Joint",
+    "limit": 20,
+    "name": "weed_pooch",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Purple Haze",
+    "limit": 20,
+    "name": "weed_purple-haze",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Purple Haze",
+    "limit": 20,
+    "name": "weed_purple-haze_pooch",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Purple Haze Seed",
+    "limit": 20,
+    "name": "weed_purple-haze_seed",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Weed Seed",
+    "limit": 20,
+    "name": "weed_seed",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Whisky",
+    "limit": 25,
+    "name": "whisky",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Wifi Adapter",
+    "limit": 25,
+    "name": "wifi_card",
+    "rare": 0,
+    "weight": 3
+  },
+  {
+    "can_remove": 1,
+    "label": "Red Wine",
+    "limit": 15,
+    "name": "wine_red",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "White Whine",
+    "limit": 15,
+    "name": "wine_white",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Winter Loot Box",
+    "limit": 25,
+    "name": "winter_crate",
+    "rare": 0,
+    "weight": 5
+  },
+  {
+    "can_remove": 1,
+    "label": "Wire",
+    "limit": 25,
+    "name": "wire",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Raw Wood",
+    "limit": 50,
+    "name": "wood",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "Yellow Bandana",
+    "limit": 250,
+    "name": "yellowbandana",
+    "rare": 0,
+    "weight": 0
+  },
+  {
+    "can_remove": 1,
+    "label": "bread",
+    "name": "Bread",
+    "rare": 0,
+    "weight": 1
+  },
+  {
+    "can_remove": 1,
+    "label": "water",
+    "name": "Water",
+    "rare": 0,
+    "weight": 1
+  }
+]
