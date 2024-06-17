@@ -1,0 +1,189 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+* {
+	box-sizing: border-box;
+	font-family: 'Inter UI', sans-serif;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	outline: none;
+}
+body {
+	margin: 0;
+	height: 100%;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background: #f3f4f7; 
+}
+::-webkit-scrollbar-thumb {
+	background: rgb(170, 0, 0);
+}
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(130, 0, 0);
+	transition: background-color 0.2s;
+}
+.navtop {
+	height: 60px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	backdrop-filter: blur(4px);
+	border-bottom: 1px solid black;
+	color: white;
+}
+.navtop div {
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+.navtop div h1, .navtop div a {
+	display: inline-flex;
+	align-items: center;
+}
+.navtop div h1 {
+	flex: 1;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	color: #eaebed;
+	font-weight: normal;
+}
+.navtop div a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #c1c4c8;
+	font-weight: bold;
+}
+.navtop div a i {
+	padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+	color: #eaebed;
+}
+body.loggedin {
+	background-color: #f3f4f7;
+	/*background-image: url("https://i.imgur.com/k0RVubJ.jpg");
+	background-size: cover;*/
+}
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 22px;
+	border-bottom: 1px solid #e0e0e3;
+	color: #4a536e;
+	cursor: pointer;
+}
+.content > p, .content > div {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 25px 0;
+	padding: 25px;
+	background-color: #fff;
+}
+.content > p table td, .content > div table td {
+	padding: 5px;
+}
+.content > p table td:first-child, .content > div table td:first-child {
+	font-weight: bold;
+	color: #4a536e;
+	padding-right: 15px;
+}
+.content > div p {
+	padding: 5px;
+	margin: 0 0 10px 0;
+	font-weight: bold;
+}
+button {
+    background-color: rgb(170, 0, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+button:hover {
+    background-color: rgb(130, 0, 0);
+	transition: background-color 0.2s;
+}
+input {
+    background-color: rgb(170, 0, 0);
+    border: none;
+	color: white;
+	margin-top: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	backdrop-filter: blur(4px);
+	border-top: 1px solid black;
+	color: white;
+	text-align: center;
+}
+
+console
+{
+	position: relative;
+	background: #111;
+	border-radius: 5px;
+	color: #ccc;
+	display: block;
+	padding: 10px 10px;
+	width: 800px;
+	margin: auto;
+	height: 500px;
+	overflow: hidden;
+	text-align: left;
+}
+
+console #content
+{
+	position: absolute;
+	bottom: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: calc(100% - 25px);
+	width: calc(100% - 10px);
+	margin-bottom: 13px;
+	word-break: break-word;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+console #content::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+
+console #content::-webkit-scrollbar-button {
+	width: 0px;
+	height: 0px;
+}
+
+console #content::-webkit-scrollbar-thumb {
+	background: #e1e1e1;
+	border-radius: 100px;
+}
+
+console #content::-webkit-scrollbar-track {
+	background: #666666;
+}
+
+console #content::-webkit-scrollbar-corner {
+	background: transparent;
+}

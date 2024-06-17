@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
+    </head>
+    <body>
+  <audio id="Loading" autoplay loop >
+         <source src="music/Loading.mp3" type="audio/mp3">
+    </audio>
+	<script>
+     var vid = document.getElementById("Loading");
+     vid.volume = 0.3
+    </script>
+
+    <div class= "content">
+      <h1> Welcome to</h1> 
+      <p>  Servername</p>
+      </div>
+        <div class="backdrop">
+	<span class="loadingtext">Discord.io/mack</span>
+            <div class="letni">
+                <div class="loadbar"><div class="thingy"></div></div>
+                <img src="loading.gif">
+            </div>
+            <div class="bottom">
+                <div id="gradient">
+                </div>
+            </div>
+        </div>
+
+<script type="text/javascript">
+var count = 0;
+var thisCount = 0;
+
+const emoji = {
+    INIT_BEFORE_MAP_LOADED: [ '🍉' ],
+    INIT_AFTER_MAP_LOADED: [ '🍋', '🍊' ],
+    INIT_SESSION: [ '🍐', '🍅', '🍆' ],
+};
+
+const handlers = {
+    startInitFunctionOrder(data)
+    {
+        count = data.count;
+
+        document.querySelector('.letni h3').innerHTML += emoji[data.type][data.order - 1] || '';
+    },
+
+    initFunctionInvoking(data)
+    {
+        document.querySelector('.thingy').style.left = '0%';
+        document.querySelector('.thingy').style.width = ((data.idx / count) * 100) + '%';
+    },
+
+    startDataFileEntries(data)
+    {
+        count = data.count;
+
+        document.querySelector('.letni h3').innerHTML += "\u{1f358}";
+    },
+
+    performMapLoadFunction(data)
+    {
+        ++thisCount;
+
+        document.querySelector('.thingy').style.left = '0%';
+        document.querySelector('.thingy').style.width = ((thisCount / count) * 100) + '%';
+    },
+
+    onLogLine(data)
+    {
+        document.querySelector('.letni p').innerHTML = data.message + "..!";
+    }
+};
+
+window.addEventListener('message', function(e)
+{
+    (handlers[e.data.eventName] || function() {})(e.data);
+});
+</script>		
+    </body>
+</html>
