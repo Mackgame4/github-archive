@@ -1,2 +1,0 @@
-# Sky-Boilerplate-RJS
-

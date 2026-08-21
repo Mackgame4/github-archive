@@ -1,9 +1,0 @@
-citizen
-cache
-citizen/system_resources/
-/*.dll
-/*.json
-/*.crt
-/*.key
-FXServer.exe
-imgui.ini
