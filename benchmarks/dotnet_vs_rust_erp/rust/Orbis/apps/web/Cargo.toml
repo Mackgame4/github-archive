@@ -1,0 +1,12 @@
+[package]
+name = "orbis-web"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+orbis-application = { path = "../../crates/application" }
+orbis-ui = { path = "../../crates/ui" }
+topcoat.workspace = true
+

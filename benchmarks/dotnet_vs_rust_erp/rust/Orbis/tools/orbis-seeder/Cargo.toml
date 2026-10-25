@@ -1,0 +1,10 @@
+[package]
+name = "orbis-seeder"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+orbis-infrastructure = { path = "../../crates/infrastructure" }
+tokio.workspace = true

@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Orbis.Core\Orbis.Core.csproj" />
+    <ProjectReference Include="..\Orbis.Contracts\Orbis.Contracts.csproj" />
+  </ItemGroup>
+</Project>

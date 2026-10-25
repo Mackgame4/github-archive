@@ -1,0 +1,21 @@
+Products 1 000 000 in SQLite:
+
+C# + ASP.NET:
+Build Time - 3.36s
+Server process idle - 82 mb ram (idle) ... 181 mb ram (under 1 user 300 000 products) [370mb under limit none]
+Browser "/api/products?limit=none" - Out of memory
+Browser "/api/products?limit=100" - 4ms
+Browser "/api/products?limit=10_000" - 27ms...45ms
+Browser "/api/product?limit=100_000" - 1.25s...1.29s
+Browser "/api/product?limit=300_000" - 3.40s...5.57s
+Broser page load - 100ms - wasm (but after page load working as SPA it loads in 4 ms)
+
+Rust + Axum:
+Build Time - 0.73s
+Server process - 1.5mb ram (idle) ... 45 mb (under 1 user 300 000 products) [175mb under limit none]
+Browser "/api/products?limit=none" - 33.92s - 175mb server process
+Browser "/api/products?limit=100" - 5ms
+Browser "/api/products?limit=10_000" - 140ms...174ms
+Browser "/api/product?limit=100_000" - 2.30s...2.93s
+Browser "/api/product?limit=300_000" - 6.88s...7.27s
+Broser page load - 4ms - static html + javascript

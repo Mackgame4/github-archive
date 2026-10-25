@@ -1,0 +1,19 @@
+[package]
+name = "orbis-server"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+axum.workspace = true
+orbis-api = { path = "../../crates/api" }
+orbis-application = { path = "../../crates/application" }
+orbis-infrastructure = { path = "../../crates/infrastructure" }
+orbis-web = { path = "../web" }
+tokio.workspace = true
+topcoat.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+thiserror.workspace = true
+

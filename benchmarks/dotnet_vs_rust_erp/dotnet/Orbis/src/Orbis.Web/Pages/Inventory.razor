@@ -1,0 +1,87 @@
+@page "/"
+@inject HttpClient Http
+
+<PageTitle>Product Inventory — Orbis</PageTitle>
+
+<main class="container py-4 py-md-5">
+    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-sm-center gap-3 mb-4">
+        <div>
+            <h1 class="display-6 mb-1">Product Inventory</h1>
+            <p class="text-body-secondary mb-0">Current stock across the Orbis catalogue</p>
+        </div>
+        <OrbisButton Variant="ButtonVariant.Outline" OnClick="ReloadAsync" Disabled="@loading">
+            Refresh
+        </OrbisButton>
+    </div>
+
+    @if (loading)
+    {
+        <div class="d-flex align-items-center gap-2 text-body-secondary" role="status">
+            <div class="spinner-border spinner-border-sm" aria-hidden="true"></div>
+            <span>Loading products…</span>
+        </div>
+    }
+    else if (errorMessage is not null)
+    {
+        <div class="alert alert-danger" role="alert">
+            <h2 class="h5 alert-heading">Inventory unavailable</h2>
+            <p>@errorMessage</p>
+            <OrbisButton Variant="ButtonVariant.Danger" OnClick="ReloadAsync">Try again</OrbisButton>
+        </div>
+    }
+    else
+    {
+        <OrbisTable TItem="ProductResponse"
+                    Items="products"
+                    Columns="columns"
+                    KeySelector="product => product.Id"
+                    EmptyMessage="No products have been added yet." />
+    }
+</main>
+
+@code {
+    private static readonly IReadOnlyList<OrbisColumn<ProductResponse>> columns =
+    [
+        new("Reference", product => product.Reference),
+        new("Name", product => product.Name),
+        new("Stock", product => product.Stock, "text-end")
+    ];
+
+    private IReadOnlyList<ProductResponse> products = [];
+    private string? errorMessage;
+    private bool loading = true;
+
+    protected override Task OnInitializedAsync() => LoadProductsAsync();
+
+    private async Task ReloadAsync()
+    {
+        await LoadProductsAsync();
+    }
+
+    private async Task LoadProductsAsync()
+    {
+        loading = true;
+        errorMessage = null;
+
+        try
+        {
+            products = await Http.GetFromJsonAsync<ProductResponse[]>("api/products") ?? [];
+        }
+        catch (HttpRequestException)
+        {
+            errorMessage = "The product service could not be reached. Please try again.";
+        }
+        catch (NotSupportedException)
+        {
+            errorMessage = "The product service returned an unsupported response.";
+        }
+        catch (System.Text.Json.JsonException)
+        {
+            errorMessage = "The product service returned invalid data.";
+        }
+        finally
+        {
+            loading = false;
+        }
+    }
+}

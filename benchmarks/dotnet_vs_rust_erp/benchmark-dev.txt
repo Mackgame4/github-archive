@@ -1,0 +1,48 @@
+cd C:\Users\fabio\Desktop\projects\rust\Orbis
+cargo run -p orbis-seeder --release -- --count 1000000 --reset
+
+
+cd C:\Users\fabio\Desktop\projects\rust\Orbis
+cargo run -p orbis-server
+http://127.0.0.1:3000/api/products?limit=10000
+
+
+
+
+
+
+cd C:\Users\fabio\Desktop\projects\dotnet\Orbis
+dotnet run --project tools/Orbis.Seeder -c Release -- --count 1000000
+
+cd C:\Users\fabio\Desktop\projects\dotnet\Orbis
+dotnet run --project src/Orbis.Server
+http://127.0.0.1:5000/api/products?limit=10000
+
+
+
+Products 1 000 000 in SQLite:
+
+C# + ASP.NET:
+Build Time - 3.36s
+Server process - 623 mb ram + 10 .NET Host processes (30mb each) = 923 MB
+Browser "/api/products" - Out of memory without limit or offset (4+ GB ram)
+Browser "/api/products" - with 30_000 limit - browser 328ms...582ms
+Browser "/api/products" - with 100_000 limit - browser 4.63s...5.46s
+
+
+Rust + Axum:
+Build Time - 0.73s
+Server process - 1.5mb ram
+
+
+
+WHY RUST IS SLOWER CONCURRENT IN SQLX:
+
+Concurrency adds several factors:
+- Your Rust pool permits five database connections, while we benchmarked eight clients. Requests can queue for connections.
+- Several SQLite workers and async tasks are simultaneously producing, transferring, and decoding rows. Scheduling and synchronization costs can grow.
+- Rust still validates domain objects and copies strings into DTOs. We optimized C# to materialize DTOs directly.
+The five-connection limit alone does not establish an explanation for a 17× throughput gap. Likewise, our phase diagnostic groups database execution, SQLx decoding/transfer, and domain construction together. It identifies the slow region, not the precise culprit.
+Your setup therefore matters, but we haven’t demonstrated that Windows or your hardware is defective. Laptop variability affects timings; the repeated concurrency gap deserves a controlled driver comparison.
+My earlier recommendation needs that qualification: we established that your current C# implementation handles this workload better—not that Rust inherently handles concurrency worse.
+The next useful experiment is the same Rust query using SQLx with different row-buffer sizes, then rusqlite with the whole query executed inside a bounded blocking worker, keeping connection limits, mapping, and payloads comparable. That would distinguish SQLx overhead from application overhead much more convincingly than another unchanged API benchmark.

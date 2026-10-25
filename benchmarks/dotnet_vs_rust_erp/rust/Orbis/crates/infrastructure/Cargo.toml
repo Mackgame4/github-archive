@@ -1,0 +1,19 @@
+[package]
+name = "orbis-infrastructure"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+async-trait.workspace = true
+orbis-application = { path = "../application" }
+orbis-core = { path = "../core" }
+sqlx.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true
+tempfile = "3.23.0"
+tokio.workspace = true
+

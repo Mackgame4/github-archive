@@ -1,0 +1,46 @@
+@typeparam TItem
+
+@if (!Items.Any())
+{
+    <div class="alert alert-light border text-center py-4" role="status">@EmptyMessage</div>
+}
+else
+{
+    <div class="table-responsive border rounded shadow-sm">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+                <tr>
+                    @foreach (var column in Columns)
+                    {
+                        <th scope="col" class="@column.CssClass">@column.Header</th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Items)
+                {
+                    <tr @key="KeySelector(item)">
+                        @foreach (var column in Columns)
+                        {
+                            <td class="@column.CssClass">@column.Value(item)</td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+@code {
+    [Parameter, EditorRequired]
+    public IReadOnlyList<TItem> Items { get; set; } = [];
+
+    [Parameter, EditorRequired]
+    public IReadOnlyList<OrbisColumn<TItem>> Columns { get; set; } = [];
+
+    [Parameter, EditorRequired]
+    public Func<TItem, object> KeySelector { get; set; } = item => item!;
+
+    [Parameter]
+    public string EmptyMessage { get; set; } = "No records found.";
+}
